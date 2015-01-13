@@ -1,0 +1,249 @@
+---
+layout: default
+title: ActionScript
+---
+
+<div id="charpter">
+h3. Contents
+* "Utility Class":#utility_class
+** "Tweener":#tweener
+** "Audio":#audio
+** "Graphic":#graphic
+** "Component":#component
+* "Engine":#engine
+** "Game":#game
+** "Physics":#physics
+** "3D":#3d
+** "Particle":#particle
+* "Framework":#framework
+* "AIR Native Extensions":#ane
+* "Software":#software
+** "Design":#design
+** "Development":#development
+** "Useful Tools":#useful_tools
+* "References":#references
+* "Website":#website
+</div>
+
+h1. ActionScript
+
+h3(#utility_class). Utility Class
+* *(#tweener)Tweener*
+** "Tweening Platform":http://blog.greensock.com
+** "tween24":http://code.google.com/p/tween24/ - 一位日本人写的tween库
+** "Tweener":http://code.google.com/p/tweener/
+
+* *(#audio)Audio*
+** "as3soundeditorlib":http://code.google.com/p/as3soundeditorlib
+** "ASAudio":http://code.google.com/p/asaudio/ - 小巧的声音处理库
+** "SoundAS":https://github.com/treefortress/SoundAS - 实用的声音管理库
+
+* *(#graphic)Graphic*
+** "as3-bitmap-mosaic-class":http://juliankussman.com/blog/2008/10/01/as3-bitmap-mosaic-class
+** "graffiti":http://www.nocircleno.com/graffiti/
+** "Volumetrics":https://github.com/yonatan/volumetrics - 一款实时光照效果库
+
+* *(#component)Component*
+** "Aspire UI":http://www.ghostwire.com/aspireui/ - 一款强大的商业 UI 组件
+** "Minimalcomps":http://www.minimalcomps.com - 小巧的纯AS组件库
+*** "Skinnable Minimal Components":https://github.com/dgrigg/SkinnableMinimalComponents/ - 第三方让MinimalComps支持皮肤的实现
+** "AS3-Bloom":https://github.com/impaler/As3-Bloom - 轻量级用户界面
+** "Razor Components":https://github.com/razorberry/razor - 一套支持皮肤的纯AS组件库
+** "Libraui":http://code.google.com/p/libraui/ - 一款简易的flash UI组件
+** "Span.as":http://crosspop.github.com/spin.as/ - 一个旋转loading样式组件
+** "as3-date-range-picker":https://github.com/nidin/as3-date-range-picker - 一款日期选择控件
+
+* *(#network)Network*
+** "Actionscript-oauth2":http://charlesbihis.github.com/actionscript-oauth2/ - 一款针对OAuth2认证服务的支持库
+** "as3_oauth2":https://bitbucket.org/jamesrobb/as3_oauth2/ - 另一款针对OAuth2认证服务的支持库
+** "Quiero":https://github.com/idreyn/quiero - URLRequests made awesome in AS3
+
+* *(#other)Other*
+** "CollisionDetectionKit":http://code.google.com/p/collisiondetectionkit/
+** "Collision-AS3":http://martinkallman.github.com/collision-as3/ - 一款支持Quadtree和Spatial Hash Grid的碰撞检测库
+** "Casalib":http://casalib.org/
+** "doomsdayconsole(强大的控制台辅助工具)":http://code.google.com/p/doomsdayconsole/
+** "TransformTool":http://www.senocular.com/flash/tutorials/transformtool/
+** "XMLSerializer":http://www.libspark.org/wiki/clockmaker/XMLSerializer - 可以将xml和as3 object互相转换
+** "FastStats":https://github.com/esDotDev/FastStats - 支持Flash Native DisplayList, ND2D 和 Starling 的 Benchmark 数据显示工具
+** "AS3-Signals":https://github.com/robertpenner/as3-signals - 代替AS3原生事件的新实现库
+** "Lua-Alchemy":http://code.google.com/p/lua-alchemy/ - Port of the Lua programming language for ActionScript using Alchemy
+** "fzip":https://github.com/claus/fzip - 读取，修改，创建标准zip文件
+** "gzip":https://code.google.com/p/ascompress/ - ActionScript library for file and data compression formats (initially GZIP)
+** "SwfExplorer":http://code.google.com/p/swfexplorer/ - 分析SWF中的元件链接名
+** "AS3-LocaleManager":https://github.com/rekomat/AS3-LocaleManager - 语言管理器
+** "AS3-VirtualKeyboard":https://github.com/nidin/as3-virtual-keyboard - as3实现的虚拟键盘
+** "baseoneaslib":https://code.google.com/p/baseoneaslib/ - 包含一套Astar寻路类的一套工具库
+** "flasheff":http://www.flasheff.com/ - flash特效库
+** "Flash Page Filp":http://www.flashpageflip.com/ - 一款翻页效果库
+** "PageFilp":http://pageflip.hu/ - 同上
+** "As3Pathfinder":https://github.com/azakhary/As3Pathfinder - a non A* Grid Path finding algorythm
+** "as3AStarWithGreenThread":https://github.com/yangboz/as3AStarWithGreenThread - AStar example at 『AdvanceEDActionScriptAnimation』 with Green Thread mechanism optimization.
+** "MicroPather":https://github.com/tconkling/micropather-as3/ - 移植自 Lee Thomason’s C++ A* solver 的 A* 寻路库
+** "silin":http://silin.su/ - 有不少不错的工具类
+** "vec2":https://github.com/azrafe7/vec2 - 2D vector class for AS3
+
+h3(#engine). Engine
+* *(#game)Game*
+** "as3isolib":http://code.google.com/p/as3isolib/
+*** "as3isolib_starling":https://github.com/HiWill/as3isolib_starling
+** "Ash":https://github.com/richardlord/Ash - an entity framework for Actionscript games
+** "Ard2d":http://code.google.com/p/animation-render-engine/ - 国产支持Stage3D的位图动画渲染引擎
+** "AXEL":http://axgl.org/ - 一款支持GPU加速的2D游戏库
+** "CadetEngine":https://github.com/CadetEditor/CadetEngine-as -  a component-based AS3 Scene Engine supporting 2D and 3D GPU accelerated rendering, physics, custom behaviours and 3rd party library integration.
+*** "CadetEditor":http://cadeteditor.github.io/ - A 2D & 3D scene editor, built on CadetEngine.
+** "Citrus":http://citrusengine.com
+** "Flixel":http://http://www.flixel.org/
+*** "FlixelCommunity":https://github.com/FlixelCommunity/flixel/ - Flixel 的 fork 版本，扩展了更多实用的功能
+*** "Flixel Power Tools":http://www.photonstorm.com/flixel-power-tools
+** "FlashPunk":http://flashpunk.net/
+** "Flat2D":https://github.com/SyntheCypher/Flat2D - 一款集合Box2D、Starling、Signals的2D游戏引擎
+** "StarlingPunk":http://www.andysaia.com/radicalpropositions/starlingpunk/ - 将 Starling 和 FlashPunk 整合的游戏框架
+** "ffilmation":http://www.ffilmation.org - 强大的2.5D游戏引擎
+** "Gear":https://github.com/brightli/gear - 国人开发的一款游戏引擎
+** "Genome2D":https://github.com/pshtif/Genome2D - 一款效果不错的支持stage3D的游戏引擎
+** "ND2D":http://www.nulldesign.de/category/experiments/nd2d/
+** "ND2Dx":https://github.com/NoRabbit/ND2Dx
+** "OpenSpace":http://www.openspace-engine.com - 多人在线游戏引擎
+** "Pixelblitz":http://code.google.com/p/pixelblitz/
+** "PushButton":http://pushbuttonengine.com
+*** "Platform Starter Kit":http://hanclinto.com/site/
+** "Pixas":http://code.google.com/p/pixas/ - 一款等距像素引擎
+** "Pixelizer":https://github.com/johanp/Pixelizer - 一款基于实体和组件的游戏引擎
+** "QuickB2":http://code.google.com/p/quickb2/ - A 2d physics-based game engine for Flash.
+** "Starling":http://www.starling-framework.org/ - The GPU powered 2D Flash API
+*** "Feathers":http://feathersui.com/ - 基于Starling的开源可换肤UI框架
+*** "Starling-imagebatch":https://github.com/elsassph/starling-imagebatch - An optimized Image batch class for Starling.
+*** "AcheGesture":https://github.com/flashache/ache-gesture - 基于 Starling 的一套手识识别库
+*** "Starling中文站":http://www.starlinglib.com/
+*** "Stats":http://forum.starling-framework.org/topic/starling-port-of-mrdoobs-stats-class - 支持Starling的统计工具
+** "TheoWorlds":http://www.theoworlds.com/theobuilder.php
+
+* *(#physics)Physics*
+** "APE":http://www.cove.org/ape/index.htm
+** "Box2DFlash":http://box2dflash.org/
+** "Flade":http://www.cove.org/flade/
+** "Motor2":http://www.motorphysics.de/
+** "nape":http://code.google.com/p/nape/
+
+* *(#3d)3D*
+** "Away3D":http://away3d.com/
+** "Alternativa3D":http://alternativaplatform.com/en/alternativa3d/
+** "EasyAGAL":http://studio.barliesque.com
+** "Flare3d":http://www.flare3d.com/
+** "Five3D":http://five3d.mathieu-badimon.com/
+** "Minko":http://aerys.in/minko/
+** "Papervision3D":http://www.papervision3d.org/
+** "Sandy3D":http://www.flashsandy.org/
+** "Sophie3D":http://www.sophie3d.com
+** "Yogurt3D":http://www.yogurt3d.com/
+** "Zest3D":http://www.zest3d.com/
+
+* *(#particle)Particle*
+** "Partigen":http://desuade.com/partigen
+** "Flint":http://flintparticles.org
+** "Stardust-Particle":http://code.google.com/p/stardust-particle-engine/
+
+* *(#other)Other*
+** "RaveAI":http://www.aliensatemybaby.com/raveai/ - 一款通用AI引擎
+** "GhostCat":http://code.google.com/p/ghostcat/ - 一款很全面的开源工具库
+** "as3-commons":http://code.google.com/p/as3-commons/ - 一套可重用组件库
+
+h3(#framework). Framework
+* "SomaMVC":http://code.google.com/p/somamvc/
+* "robotlegs":http://www.robotlegs.org/ - MVC框架
+* "MVCExpress":http://mvcexpress.org/ - 快速简单的MVC基础框架
+* "Cuke4AS3":https://github.com/flashquartermaster/Cuke4AS3 - 行为驱动开发(Behavior-driven development)框架
+* "GPUImage":https://github.com/inspirit/GPUImage - 一款GPU处理图像的框架
+* **UI框架**
+** "MornUI":http://www.mornui.com/ - 一款小巧简洁的游戏UI框架，带编辑器
+** "FlexLite":https://github.com/flexlite/framework - 一款轻量级的游戏UI框架
+
+h3(#ane). AIR Native Extensions
+* "PhotosAlbum ANE":https://github.com/katopz/ane-photosalbum
+  ANE for save image as JPEG or PNG to iOS CameraRoll
+* "DeviceFileUtil ANE":https://github.com/katopz/ane-device-file-util
+  ANE for open file with registered application on iOS
+* "DeviceInfoUtil ANE":https://github.com/katopz/ane-device-info-util
+  ANE for get some information from iOS device
+* "Distriqt Native Extensions Update":http://labs.distriqt.com/native-extensions
+  ANE package update v1.12! Includes updates to the Gyroscope extension to report raw roll, pitch and yaw values.
+* "Native Twitter ANE":https://code.google.com/p/nativetwitter-ane/
+  Adobe AIR ANE for iOS devices that allows developers to use the native Twitter framework added in iOS 5.0.
+* "Appirater ANE":https://code.google.com/p/appirater-ane/
+  Appirater is used to display “Please rate this app” dialogs.
+* "Game Kit ANE":http://airextensions.net/shop/extensions/game-kit-by-vitapoly/
+  The iOS GameKit native extension allows your game to setup real time matches for up to 4 players, send and receive custom data between players, and enable voice chat during gameplay.
+* "Device Identification":http://www.as3gamegears.com/air-native-extension/device-identification/
+  Native Extension that provides access to device identification data. It is possible to read the IMEI code, IMEI SV code, Device Serial Number, MODEL and IMSI code.
+* "Contact Editor - AddressBook Native Extension":https://github.com/julianxhokaxhiu/ContactEditor
+  Native Extension for iOS and Android enabling AddressBook access
+* "iCloudANE":http://www.as3gamegears.com/air-native-extension/icloudane/
+  iCloudANE is a native extension that enables the use of iCloud storage service.
+* "Native Extension iOS Microphone Recorder":http://www.youtube.com/watch?v=4r8pqYf_fds&hd=1
+  iOS native extension to the capture and voice recording in iOS
+* "ANE StoreKit":http://www.as3gamegears.com/air-native-extension/ane-storekit/
+  Native extension that allows the use of in-app purchase capabilities. Even though StoreKit is a framework originally developed for iOS, the extension allows the use of its features on Android as well.
+* "Chartboost ANE":https://github.com/freshplanet/ANE-Chartboost
+  Air Native Extension for Chartboost (iOS + Android)
+* "ANE TestFlight":http://www.as3gamegears.com/air-native-extension/ane-testflight/
+  TestFlight is a service that makes the testing process of an application a much easier task.
+
+h3(#software). Software
+* *(#design)Design*
+** "MarkMan":http://www.getmarkman.com/ - 马克鳗
+** "TexturePacker":http://www.texturepacker.com/ - 一款跨平台的SpriteSheet制作软件
+** "Dragon Bones":https://github.com/DragonBones - 一款骨骼动画工具
+** "Spriter":http://abeltoy.com/projects/spriterAS3/index.html - 一款跨平台的骨骼动画编辑器，支持Flixel、Starling等
+** "Flump":http://threerings.github.com/flump/ - 可以将fla文件导出为 Starling, Sparrow和 Flambe 等框架可用的位图序列+XML(JSON)的工具
+** "Drawscript":http://drawscri.pt/ - Illustrator的扩展面板，可以生成图形绘制代码
+** "shporter":https://github.com/oopstoons/shporter - 一款Flash扩展工具，可以将动画生成供其他框架使用的格式
+
+* *(#development)Development*
+** *(#ide)IDE*
+*** "FlashDevelop":http://www.flashdevelop.org
+**** "Assetpack":http://sourceforge.net/projects/assetpack/ - 一款打包资源的插件
+*** "Flash Builder":http://www.adobe.com/cn/products/flashbuilder/
+*** "SourceMate(强大的Flash Builder辅助插件)":http://www.elementriver.com/sourcemate3
+*** "FDT":http://www.fdt.powerflasher.com/
+*** "CodeDrive":http://www.codedrive.com/ - 基于 Visual Studio 2010 的AS3开发插件
+*** "UML4AS":http://www.uml4as.com/ - 可以将设计好的UML转换成AS代码
+
+** *(#useful_tools)Useful Tools*
+*** "DeMonsterDebugger":http://demonsterdebugger.com/ - Monster Debugger is an open source debugger for Adobe Flash, Flex and AIR.
+*** "Flash FireBug":http://www.o-minds.com/products/flashfirebug - FlashFirebug gives you the ability to debug any AS3 Flash on the web.
+*** "Pngcrush":http://pmt.sourceforge.net/pngcrush/ - PNG去掉Alpha通道工具
+*** "SWFWire Decompiler":http://www.swfwire.com/ - An open source library written in ActionScript 3 for reading and writing swfs.
+*** "SWFWire Debugger":http://www.swfwire.com/ - An open source AIR application for INTENSE ActionScript 3 debugging.
+*** "The Miner":http://www.sociodox.com/theminer/ - Profiler工具，可以结合FlashDevelop实现自定义Profiler
+*** "PhysicsEditor":http://www.physicseditor.de/ - Box2D多边形自动缓制工具
+*** "Flash Tracer":http://code.google.com/p/flash-tracer/ - Flash调试工具，支持各种浏览器及IDE
+*** "Swift-Tool":http://code.google.com/p/swift-tool/ - Swfit可以帮助你把图片、字体、声音、二进制数据等资源打包成一个swf文件
+*** "SWiX Free":http://www.swixkit.com/ - Easy to use XML-based editor for SWF debugging and updating
+*** "CleanSWF":https://github.com/laomoi/cleanSWF - 移除swf中的时间戳小工具，可以避免编译器每次编译往SWF里加入时间戳导致生成的MD5每次都不一样的问题
+*** "SWFScoutEnabler":https://github.com/renaun/ActionScriptExamples/tree/master/SWFScoutEnabler - 开启SWF的Scout调试功能
+*** "GAF":http://gafmedia.com/converter/ - 可以将2D Flash动画转换到目前流行的各个游戏开发平台Cocos2d, Cocos2d-x, Unity3D (including NGUI)等平台
+*** "Projector Export":http://nipunasthana.wordpress.com/projectorforflashcc/ - 实现 Flash Player 11.3 之前的导出播放器功能
+
+** *(#encryption)Encryption*
+*** "Tokaos":http://www.tokaos.com/ 一款as混淆软件
+*** "Doswf":http://www.doswf.cn - 国产加密软件
+*** "Amayeta":http://www.amayeta.com/
+*** "kindi":http://www.kindi.com/
+*** "Flasm":http://flasm.sourceforge.net/
+*** "Swf Protector":http://www.dcomsoft.com/encrypt-swf.html
+*** "Obfuscator":https://github.com/Sandremss/Actionscript-Source-Obfuscator - 一款用java写的简单的混淆工具
+*** "JPEXS Free Flash Decompiler (FFDec)":http://www.free-decompiler.com/flash/ - JPEXS Free Flash Decompiler
+*** "Flash Decompiler Trillix":http://www.flash-decompiler.com/ - 一款很强大的Flash反编译工具
+*** "SWF ID":http://swfid.je1.ru/ - 一款小巧强大的SWF解密工具
+*** "secureSWF":http://www.kindi.com/protect-swf.php - 保护SWF文件
+
+h3(#references). References
+* "优化Flash平台性能（官方PDF中文版）":http://help.adobe.com/zh_CN/as3/mobile/flashplatform_optimizing_content.pdf
+* "ActionScript3参考手册":http://help.adobe.com/zh_CN/FlashPlatform/reference/actionscript/3/
+* "Flex SDK 编码和最佳实践 (Flex SDK coding conventions and best practices）":http://opensource.adobe.com/wiki/display/flexsdk/Coding+Conventions
+
+h3(#website). Website
+* "PixelBender中文站":http://www.pixelbender.cn/
+* "Flash&Math":http://www.flashandmath.com - 老牌Flash教程站
+* "Flash Player 市场份额统计":http://www.statowl.com/flash.php

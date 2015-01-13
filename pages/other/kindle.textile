@@ -1,0 +1,16 @@
+---
+layout: default
+title: Kindle
+---
+
+<!-- <div id="charpter">
+h3. Contents
+* "常用":#commonly-used
+</div> -->
+
+h1. Kindle
+
+* "官方收费/免费电子书排行":http://www.amazon.com/gp/bestsellers/digital-text/?ie=UTF8&tag=ammzon-20&linkCode=ur2&camp=1789&creative=390957
+* "官方限时特价书":http://www.amazon.com/mn/search?_encoding=UTF8&x=0&y=0&field-keywords=&url=node%3D2279458011&_encoding=UTF8&tag=ammzon-20&linkCode=ur2&camp=1789&creative=390957#/ref=sr_hi_2?rh=n%3A133140011%2Cn%3A%212334093011%2Cn%3A%212334155011%2Cn%3A2279458011&ie=UTF8&qid=1326265002
+* "官方Twitter":https://twitter.com/#!/AmazonKindle - 会常推送Kindle Daily Deal
+* "Amazon免费电子书列表":http://www.ereaderiq.com/free/

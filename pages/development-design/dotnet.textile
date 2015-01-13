@@ -1,0 +1,36 @@
+---
+layout: default
+title: .NET
+---
+h1. .NET
+
+h3. Software
+* "Visual Studio":http://www.microsoft.com/visualstudio
+** "Visual Studio Achievernents":http://channel9.msdn.com/achievements/visualstudio - 成就&徽章系统插件
+* "SharpDevelop":http://www.sharpdevelop.net/OpenSource/SD/Default.aspx - 一款开源免费的轻量级IDE
+* ".NET Reflector":http://www.reflector.net/ - 反编译工具，已开始收费
+* "ILSpy":http://wiki.sharpdevelop.net/ilspy.ashx - 用来替代reflector的反编译工具
+* "JustDecompile":http://www.telerik.com/products/decompiler.aspx - Powerful, Free .NET Decompiler. Forever
+* "MonoDevelop":http://monodevelop.com/ - 跨平台的.net开发IDE，Linux/Windows/MacOS通吃
+* "Xamarin Studio":http://xamarin.com/studio - Build better apps for iOS, Android and Mac with Xamarin Studio.
+
+h3. Utility Class
+* "Html Agility Pack":http://htmlagilitypack.codeplex.com/ - HTML解析工具，支持xpath和xslt
+
+h3. Libraries
+* "FluorineFx":http://www.fluorinefx.com/ - 一款针对AMF0/AMF3的支持库，用于和AS3进行数据通讯
+* "EntityFramework.Extended":https://github.com/loresoft/EntityFramework.Extended - 扩展了Entiry Framework 的功能
+* "SimpleJson":http://simplejson.codeplex.com/
+* "Servicestack.Text":https://servicestack.net/text
+
+h3. CMS
+* "Orchard":http://www.orchardproject.net/
+* "Umbraco":http://umbraco.com/
+
+h3. Tools
+* "de4dot":https://github.com/0xd4d/de4dot - 一款反混淆和解包工具
+
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />

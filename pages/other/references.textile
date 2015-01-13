@@ -1,0 +1,30 @@
+---
+layout: default
+title: References
+---
+
+h1. {{ page.title }}
+
+h3. Development
+* "Get Real":http://gettingreal.37signals.com/toc.php / "中文版":http://gettingreal.37signals.com/GR_chn.php
+* "Rework":http://37signals.com/rework/ / "中文版":http://www.v2ex.com/rework/
+* "Pro Git":http://progit.org/ / "中文版":http://git-scm.com/book/zh
+* "GitHub秘籍":http://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html
+* "git - the simple guide":http://rogerdudler.github.com/git-guide/
+* "Why Git is Better than X":http://whygitisbetterthanx.com/ / "中文版":http://zh-cn.whygitisbetterthanx.com/
+* "GotGitHub":http://www.worldhello.net/gotgithub/index.html
+* "开源世界旅行手册":http://i.linuxtoy.org/docs/guide/
+* "Google Style Guide":https://code.google.com/p/google-styleguide/
+* "JSON风格手册中文版":http://ssv.sebug.net/JSONStyleGuide
+* "Learn Code The Hard Way":http://www.learncodethehardway.org/
+* "用LLVM开发新语言":http://liancheng.github.io/llvm-tutorial-cn/index.html
+
+h3. API 撰写支持
+* "Sphinx":http://sphinx-doc.org/
+* "apiblueprint":http://apiblueprint.org/
+* "apiary":http://apiary.io/
+
+h3. Other
+* "Markdown语法说明-简体中文版":http://wowubuntu.com/markdown/
+* "程序员能力矩阵":http://static.icybear.net/%5BCN%5DProgrammer%20competency%20matrix.htm
+* "Awesome Remote Job":https://github.com/lukasz-madon/awesome-remote-job

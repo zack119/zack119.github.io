@@ -1,0 +1,150 @@
+---
+layout: default
+title: WebSite
+---
+
+h1. {{ page.title }}
+
+h3. 开发
+
+* *项目管理*
+** "Basecamp":http://basecamphq.com/ - 37signals作品
+** "Trello":http://trello.com/ - 轻量级团队流程协助管理工具
+** "Todoist":http://todoist.com - 轻量级的GTD管理工具，支持Android、iOS、Symbian、WP7等
+** "Asana":http://asana.com - 体验很棒的任务管理工具，支持iOS
+
+* *代码托管*
+** "Google Code":http://code.google.com/hosting/ - 支持 SVN、Hg
+** "Github":http://github.com - Online project hosting using Git.
+** "Sourceforge":http://sourceforge.net/ - 支持 CVS、SVN
+** "Gitorious":http://gitorious.org - Offers a project hosting solution and an open source graphical interface for git repositories.
+** "CodePlex":http://www.codeplex.com/ - 微软的开源项目托管网站，支持 Git
+** "bitbucket":https://bitbucket.org/ - 支持 Git/Hg
+** "Project Kenai":http://kenai.com/ - 支持 Hg/Git
+** "unfuddle":http://unfuddle.com/ - 支持 SVN/Git
+** "Coding":https://coding.net - 附带轻量项目管理的代码托管平台，支持 Git
+
+* *网络应用托管*
+** "Google App Engine":https://appengine.google.com/
+** "Heroku":http://www.heroku.com/ - 类似Google App Engine的网络应用托管平台，支持Ruby和Python
+
+* *资料相关*
+** "StackParts":http://stackparts.com/ - web开发技术百科
+** "Sourcegraph":https://sourcegraph.com - 强大的代码搜索网站
+** "Devdocs":http://devdocs.io/ - 各种语言的 API 在线查阅
+
+* *其他工具*
+** "regexr":http://www.regexr.com/ - 正则表达式在线测试工具
+
+* *其他*
+** "gitignore.io":http://www.gitignore.io/ - 生成 gitignore 文件
+
+h3. 设计
+
+* "DesignersList":http://www.designerslist.info/ - 设计类资源导航站
+* *Color Scheme*
+** "Color Combos":http://www.colorcombos.com/
+** "Color Hunter":http://www.colorhunter.com/
+** "Color Jack":http://www.colorjack.com/sphere/
+** "Color Scheme Designer":http://colorschemedesigner.com/
+** "Color Spire":http://www.colorspire.com/
+** "Colorco":http://colourco.de/ - 一款体验不错的颜色选择器
+** "Dasplankton":http://www.dasplankton.de/ContrastA/
+** "Hex Color":http://www.2createawebsite.com/build/hex-color-scheme-generator.html
+** "Kuler":http://kuler.adobe.com/#themes/rating?time=30
+** "Pantone":http://www.labelpartners.com/pantone_coated_table.html
+** "Slayer Office":http://slayeroffice.com/tools/color_palette/
+* *Tools*
+** "TinyPNG":http://tinypng.org/ - 在线压缩PNG，效果很强
+** "JpegMini":http://www.jpegmini.com - 在线压缩jpg图片，效果不错
+** "Text to ASCII Art Generator (TAAG)":http://patorjk.com/software/taag/
+* *WebSite*
+** "resolution":http://resolution.im - 提供手机的各种信息和设计源文件下载
+* *免费照片库*
+** "Little Visuals":http://littlevisuals.co/
+** "Unsplash":http://unsplash.com/
+** "Death to the Stock Photo":http://join.deathtothestockphoto.com/
+** "New Old Stock":http://nos.twnsnd.co/
+** "Superfamous (requires attribution)":http://superfamous.com/
+** "Picjumbo":http://picjumbo.com/
+** "The Pattern Library":http://thepatternlibrary.com/
+** "Gratisography":http://www.gratisography.com/
+** "Getrefe":http://getrefe.tumblr.com/
+** "IM Free (requires attribution)":http://imcreator.com/free
+* *UI*
+** "365PSD":http://365psd.com/
+** "dribbble":http://dribbble.com
+** "UI Pattern":http://ui-patterns.com/
+** "Pattern Tap":http://patterntap.com/
+** "AWWWARDS":http://www.awwwards.com/
+* *APP UI*
+** "pttrns (iOS UI Patterns)":http://pttrns.com/ 
+** "模式库（APP界面设计模式库）":http://www.moshiku.com
+** "Inspired UI":http://inspired-ui.com
+** "Mobile UI Patterns":http://mobile-patterns.com/ 
+** "Mobile Patterns":http://www.mobilepatterns.com
+** "Patterns of design":http://www.patternsofdesign.co.uk/
+** "App网站设计":http://www.appsites.com/
+
+
+h3. 网络应用
+
+* *服务类*
+** "Disqus":http://disqus.com/ - 提供支持社交媒体的评论功能托管
+** "友言":http://uyan.cc/ - 国内版的Disqus
+** "tinyletter":http://tinyletter.com - 提供简洁实用的邮件列表服务
+** "mailchimp":http://mailchimp.com - 同上
+** "IFTTT":https://ifttt.com/ - 基于条件出发任务的网站
+** "UserVoice":http://uservoice.com/ - 提供访客反馈信息托管
+** "ReadTheDocs":http://readthedocs.org - 文档托管平台
+** "random.org":https://www.random.org/passwords/?num=1&len=8&format=plain&rnd=new - 在线生成随机密码
+** "Mailgun":http://mailgun.com/ - 提供邮件的发送接收和追踪服务
+** "Mandrill":http://www.mandrill.com/ - 提供邮件的发送接收和追踪服务
+** "Sendcloud":http://sendcloud.sohu.com/ - sohu推出的邮件发送服务
+** "WebServiceX":http://www.webservicex.net/ - 集合了很多查询的Web服务网站
+** "腾讯服务器时间查询":http://cgi.im.qq.com/cgi-bin/cgi_svrtime
+** "聚合数据":http://www.juhe.cn/ - 一款聚合众多查询接口与一身的服务
+** "Parse":https://parse.com/ - 提供应用数据存储和帐户管理的服务
+** "Amazon Mobile Analytics":http://aws.amazon.com/mobileanalytics/
+** "Survey Monkey":https://www.surveymonkey.com/ - 在线自定义网络调查服务
+** "麦客":http://www.mikecrm.com/ - 自定义信息收集平台
+** "问卷网":http://www.wenjuan.com/ - 自建表单信息收集平台
+* *工具类*
+** "Online Audio Cutter":http://cut-mp3.com/ - 在线分割mp3
+** "httpbin":http://httpbin.org/ - 提供简单的 API，来根据 URL 返回相关信息
+** "RunScope":https://www.runscope.com/ - 调试和测试API
+** "Google Fonts 在线转换":http://everythingfonts.com/font-face
+* *网站服务相关*
+** "百度云加速":http://yunjiasu.baidu.com/
+** "安全宝":http://www.anquanbao.com/
+** "cloudflare":http://www.cloudflare.com/
+* *移动服务*
+** "信鸽":http://xg.qq.com/ - 腾讯推出的推送服务
+** "百度云推送":http://developer.baidu.com/push
+
+h3. 娱乐
+
+* *环境音效及白噪音*
+** "NatureSound":http://naturesound.org/
+** "RainyMood":http://www.rainymood.com/
+** "NatureSoundsForMe":http://naturesoundsfor.me
+** "Raining":http://raining.fm/
+** "musicForProgramming":http://musicforprogramming.net/
+** "Coffitivity":http://www.coffitivity.com/ - 模拟咖啡馆音效
+** "calm":http://www.calm.com/
+** "GetRelaxed":http://www.getrelaxed.com/
+** "Mood.pw":http://mood.pw/
+** "GET WORK DONE MUSIC":http://www.getworkdonemusic.com/
+** "jamiroquai-radenko":https://soundcloud.com/radenko-zec/sets/jamiroquai-radenko
+** "MusicForConcentration":http://www.reddit.com/r/MusicForConcentration/
+
+h3. 壁纸站
+* "alphacoders":http://wall.alphacoders.com/
+* "Desktoppr":http://facets.lahttp://desktoppr.co/
+* "InterfaceLife":https://interfacelift.com/
+* "kuvva":https://www.kuvva.com/
+* "NicePic":http://nicepic.org/
+* "SimpleDesktops":http://simpledesktops.com/
+* "Unsplash":https://unsplash.com/
+* "WallHaven":http://alpha.wallhaven.cc/
+* "WallpapersWide":http://wallpaperswide.com/

@@ -1,0 +1,158 @@
+---
+layout: default
+title: Ruby
+---
+
+<div id="charpter">
+h3. Contents
+* "Web Site":#website
+* "Tools":#tools
+* "Web Framework":#webframework
+* "Gems":#gems
+* "References":#references
+** "Ruby":#references_ruby
+** "Rails":#references_rails
+** "Sinatra":#references_sinatra
+* "Web Apps":#webapps
+* "Articles":#articles
+</div>
+
+h1. Ruby
+
+h3(#website). Web Site
+* "Ruby Programming Language":http://www.ruby-lang.org - Ruby官方网站
+* "Ruby on Rails":http://rubyonrails.org/
+* "ThoughtRails":http://thoughtrails.com/ - Ruby on Rails中文技术分享交流平台
+* "Ruby-China":http://ruby-china.org - Ruby中文社区
+* "ChinaonRails":http://chinaonrails.com/ - Focus on Ruby on Rails, Web2.0, Business, Technic and beyond
+* "The Ruby Toolbox":https://www.ruby-toolbox.com/ - 实用RubyGems排名
+* "RailsTips":http://railstips.org
+* "Rubular":http://rubular.com/ - ruby正则在线测试工具
+
+h3(#tools). Tools
+* "Rails-dev-box":https://github.com/rails/rails-dev-box - rails虚拟开发环境部署工具
+* "RVM":http://beginrescueend.com/ - Ruby版本管理器
+** "JewelryBox":http://unfiniti.com/software/mac/jewelrybox - RVM官方GUI工具
+* "Pow":http://pow.cx/ - 37signals开发的网页服务器
+* "RubyInstaller":http://rubyinstaller.org - The easy way to install Ruby on Windows
+* "RailsInstaller":http://railsinstaller.org/ - windows下的一键安装包
+* "errbit":https://github.com/errbit/errbit - Rails日志捕捉工具，支持Hoptoad API
+* "skwp's dotfiles":https://github.com/skwp/dotfiles - 适合ruby/rails开发者的最佳配置文件集合
+
+h3(#webframework). Web Framework
+* "Rails":http://rubyonrails.org
+* "Sinatra":http://www.sinatrarb.com/
+** "Padrino":http://www.padrinorb.com/
+* "Ramaze":http://ramaze.net/
+* "Presto":http://prestorb.github.com/
+* "Vesper":http://vesperapps.com/
+* "Cramp":http://cramp.in - a fully asynchronous real-time web application framework in Ruby
+
+h3(#gems). Gems
+* "Rubygems淘宝镜像":http://ruby.taobao.org/
+* "Rubygems gzruby.org镜像":http://gems.gzruby.org/
+* slim: "Official Website":http://slim-lang.com/ / "Github":https://github.com/stonean/slim - a template language
+* haml: "official Website":http://haml-lang.com / "Github":http://github.com/nex3/haml - 同上
+* mongoid: "Official Website":http://mongoid.org / "Github":https://github.com/mongoid/mongoid - MongoDB的Object-Document-Mapper (ODM)工具
+* mongo_mapper: "Official Website":http://mongomapper.com/ / "Github":https://github.com/jnunemaker/mongomapper - 同上
+* thinreports: "Official Website":http://www.thinreports.org/ - 报表工具，中文支持良好。
+* devise: "Official Website":http://blog.plataformatec.com.br/tag/devise/ / "Github":https://github.com/plataformatec/devise - 快速构建注册、登录、找回密码等功能
+* omniauth: "Github":https://github.com/intridea/omniauth - 实现第三方平台登录
+* awesome_nested_set: "Github":https://github.com/collectiveidea/awesome_nested_set - 实现多级分类
+* will_paginate: "Github":https://github.com/mislav/will_paginate/wiki - 实现分页
+* kaminari: "Github":https://github.com/amatsuda/kaminari - 同上
+* paperclip: "Github":https://github.com/thoughtbot/paperclip - 实现上传
+* carrierwave: "Github":https://github.com/jnicklas/carrierwave - 同上，原生支持gridfs
+* wice_grid: "Official Website":http://leikind.org/wicegrid / "Github":http://leikind.org/pages/wicegrid - 实现表格相关功能
+* thinking-sphinx: "Github":http://freelancing-god.github.com/ts/en/ - 实现基于Sphinx的全文搜索
+* rails-settings-cached: "Github":https://github.com/huacnlee/rails-settings-cached - 将配置信息写入数据库并缓存
+* cancan: "Github":https://github.com/ryanb/cancan / "Railscasts":http://railscasts.com/episodes/192-authorization-with-cancan - 实现用户功能权限的设定， 
+* rails_admin: "Github":https://github.com/sferik/rails_admin - 快速构建后台管理
+* activeadmin: "Official Website":http://activeadmin.info / "Github":https://github.com/gregbell/active_admin / "Railscasts":http://railscasts.com/episodes/284-active-admin - 同上
+* redis-objects: "Github":https://github.com/nateware/redis-objects - 实现Redis数据的快速存储，如：页面访问量、Followers等
+* nokogiri: "Official Website":http://nokogiri.org/ / "Github":https://github.com/tenderlove/nokogiri - 实现HTML页面的数据采集
+* formtastic: "Github":https://github.com/justinfrench/formtastic - 实现表单构建，比Rails自带的表单功能更简洁，功能更强大
+* simple_form: "Github":http://github.com/plataformatec/simple_form - 同上
+* whenever: "Github":https://github.com/javan/whenever - 实现类似Linux的Cron定期搜行任务功能
+* resque: "Github":http://github.com/defunkt/resque - 实现后台多任务队列
+* delayed_job: "Github":https://github.com/collectiveidea/delayed_job - 实现后台单任务队列，支持优先级
+* rails-dev-boost: "Github":https://github.com/thedarkone/rails-dev-boost - 实现Rails的缓存机制，加速程序执行速度
+* cells: "Github":https://github.com/apotonick/cells - 实现局部功能到View的生成，支持缓存，比Rails自带的Partials效率好
+* smurf: "Github":http://github.com/thumblemonks/smurf - 实现js、css的压缩，不过Rails3.1已自带Asset Pipeline
+* daemon-spawn: "Github":http://github.com/alexvollmer/daemon-spawn - 实现某些任务使用daemon方式启动，比如管理Resque的启动和重启
+* simplecov: "Github":https://github.com/colszowka/simplecov - 代码覆盖率分析工具
+* sunspot: "Github":https://github.com/sunspot/sunspot - 全文索引
+* sunspot_rails: "Github":https://github.com/outoftime/sunspot/tree/master/sunspot_rails/
+* sunspot_mongoid: "Github":https://github.com/jugyo/sunspot_mongoid - A Sunspot wrapper for Mongoid.
+* meta_search: "Official Website":http://erniemiller.org/projects/metasearch/ / "Github":https://github.com/ernie/meta_search - 实现复杂组合查询
+* awesome_print: "Github":https://github.com/michaeldv/awesome_print - 格式化输出ruby对象
+* wirble: "Github":https://github.com/blackwinter/wirble - 增强irb，加入历史，语法高亮等功能
+* hirb: "Official Website":http://tagaholic.me/hirb/ / "Github":https://github.com/cldwalker/hirb - 格式化数据
+* irbtools: "Official Website":http://rbjl.net/40-irbtools-release-the-power-of-irb / "Github":https://github.com/janlelis/irbtools - Release the power of irb!
+* richrc: "Github":https://github.com/miaout17/richrc / "Article":http://blog.miaout17.net/2011/02/13/richrc-rails3-customization-hirb-wirble/ - 在rails3中不用修改Gamfile，实现irb格式化和高亮语法
+* pry: "Github":https://github.com/pry/pry  - 调试工具
+* rake_ui: "Github":https://github.com/rbrant/rake_ui - 图形化Rake任务
+* mongo-rails-instrumentation: "Github":https://github.com/freerange/mongo-rails-instrumentation - 显示 ORM 性能日志
+* Server
+** puma: "Github":https://github.com/evanphx/puma -  a simple, fast, and highly concurrent HTTP 1.1 server for Ruby web applications.
+** powder: "Github":https://github.com/rodreegez/powder - Makes Pow even easier.
+* Exception Notifier
+** exception_notification_rails3: "Github":https://github.com/railsware/exception_notification
+** airbrake: "Official Website":http://airbrake.io / "Github":https://github.com/airbrake/airbrake
+** errbit: "Github":https://github.com/errbit/errbit
+* "EventMachine":http://rubyeventmachine.com/ - 一款快速、简单的事件处理库
+
+h3(#references). References
+* *(#references_ruby)Ruby*
+** "Ruby使用笔记":http://apidock.com/ruby
+** "Learn Ruby The Hard Way":http://ruby.learncodethehardway.org / "繁体版":http://lrthw.github.com/
+** "Ruby-Doc.org":http://www.ruby-doc.org/
+** "RubyDoc":http://rubydoc.info/
+** "Ruby Monk":http://rubymonk.com/ - An Interactive Platform That Helps You Learn Ruby
+** "24个技巧视频":http://chinaonrails.com/topic/view/5319.html
+** "Github编程风格英文版":https://github.com/styleguide/ruby / "中文版":https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhTW.md
+** "Codecademy的Ruby教程":http://www.codecademy.com/tracks/ruby
+** "Try Ruby":http://tryruby.org
+* *(#references_rails)Rails*
+** "使用 RSpec 测试 Rails 程序":https://leanpub.com/everydayrailsrspec-cn/
+** "Ruby on Rails Tutorial 中文版":http://railstutorial-china.org/
+** "如何从零开始学会 Ruby on Rails - 李华顺":http://huacnlee.com/blog/how-to-start-learning-ruby-on-rails
+** "如何从0开始学Ruby on Rails - 漫步":http://readful.com/post/12322300571/0-ruby-on-rails
+** "Ruby on Rails Guides":http://guides.rubyonrails.org/ / "繁体版":http://guides.ruby.tw/rails3/getting_started.html
+** "Ruby on Rails 實戰聖經":http://ihower.tw/rails3/
+** "Essentail Rails Design Pattern - xdite":http://erp-book.heroku.com/
+** "Ruby on Rails新手进阶知识繁体版":http://ruby-taiwan.org/wiki/essential-ruby-rails-knowledge
+** "Rails Documentation":http://api.rubyonrails.org/ - 官方API文档
+** "Rails使用笔记":http://apidock.com/rails
+** Ruby on Rails Tutorial: Learn Rails by Example: "Video":http://ruby.railstutorial.org/ / "Book":http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
+** "The Rails 3 Way":http://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321601661
+** "Rails 101 - 火速學會 Ruby on Rails":http://rails-101.logdown.com/
+** "Rails Best Practices":http://rails-bestpractices.com/
+** "RailsCasts":http://railscasts.com - Rails视频教程站
+** "RailsCasts-China":http://railscasts-china.com - Rails中国视频教程站
+** "Teach Me To Code Screencasts":http://teachmetocode.com/screencasts/
+** "Ruby on Rails 3 Essential Training":http://www.lynda.com/Ruby-on-Rails-3-tutorials/essential-training/55960-2.html
+** "ruby-china wiki":http://ruby-china.org/wiki
+** "Big Fat Rails":http://www.bigfatrails.com
+* *(#references_sinatra)Sinatra*
+** "Bloc":http://www.trybloc.com/
+** "Darren Jones 的系列教程":http://rubysource.com/author/djones/
+
+h3(#webapps). Web Apps
+* "OctoPress":http://octopress.org/ - A blogging framework for hackers.
+* "Gollum":https://github.com/github/gollum - a simple wiki system built on top of Git that powers GitHub Wikis.
+* "Ruby-China":https://github.com/huacnlee/ruby-china - Ruby China Group
+* "Rails-Bestpractices":https://github.com/railsbp/rails-bestpractices.com
+* "Rubyist":https://github.com/hooopo/rubyist/ - Rubyist是一个多人协作的群体Blog
+* "Blogcast":http://techoctave.com/blogcast/ - a better way to blog
+* "Jekyll Bootstrap":http://jekyllbootstrap.com/
+* "Ruhoh":http://ruhoh.com/
+* "Rabel":https://github.com/daqing/rabel - 仿v2ex的开源社区应用
+* "robbin_site":https://github.com/robbin/robbin_site - CSDN的CTO范凯的个人开源博客系统
+
+h3(#host). Web Host
+* "Engine Yard":http://www.engineyard.com
+
+h3(#articles). Articles
+* "如何在Mac下快速部署 Nginx + Passenger + Rails":http://lvguoning.com/blog/2011/11/27/mac-nginx-passenger-rails/
+* "十個 Ruby Web Developer 應該熟悉的工具":http://blog.xdite.net/posts/2011/10/09/10-ruby-developer-must-have-tools/

@@ -1,0 +1,36 @@
+---
+layout: default
+title: Node.js
+---
+
+h1. Node.js
+
+* "官网":http://nodejs.org/
+* "源码(Github)":https://github.com/joyent/node
+* "CNode - 中文社区":http://club.cnodejs.org/
+* "NAE":http://cnodejs.net/ - NodeJS应用开发与运行平台
+* "淘宝NPM镜像":http://npm.taobao.org/
+
+h3. Framework
+* "Compound":http://compoundjs.com/
+* "Derby":http://derbyjs.com/
+* "Express":http://expressjs.com/
+* "Geddy":http://geddyjs.org
+* "Mean":http://mean.io
+* "Meteor":http://www.meteor.com
+* "Opa":http://opalang.org
+* "Sails":http://sailsjs.org/
+* "Tower.js":http://towerjs.org
+* "Wakanda":http://wakanda.org
+* "Yahoo! Mojito":http://developer.yahoo.com/cocktails/mojito/‎
+* "Hoodie":http://hood.ie/ - 基于node.js和couchdb的web app开发框架
+
+h3. Tools
+* "LivePool":https://github.com/rehorn/livepool - 一个基于 NodeJS，类似 Fiddler 支持抓包和本地替换的 Web 开发调试工具
+* "node-readability":https://github.com/arrix/node-readability - 像evernote的那个chrome插件那样，自动分析页面里的正文抓取
+* "stylus":https://github.com/LearnBoost/stylus - Expressive, robust, feature-rich CSS language built for nodejs
+* "roots":https://github.com/jenius/roots - a toolkit for rapid advanced front-end development
+* "js2coffee":https://github.com/rstacruz/js2coffee
+
+h3. References
+* "7天学会NodeJS":http://nqdeng.github.io/7-days-nodejs/

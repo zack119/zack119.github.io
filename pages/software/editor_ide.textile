@@ -1,0 +1,242 @@
+---
+layout: default
+title: Editor & IDE - Software
+---
+
+<div id="charpter">
+h3. Contents
+* "Sublime Text":#sublime_text
+* "Vim":#vim
+* "Emacs":#emacs
+* "Eclipse":#eclipse
+* "JetBrains's IDE":#jetbrains
+* "Web IDE":#webide
+* "Xcode":#xcode
+* "OS X Platform":#osx
+* "Windows Platform":#windows
+* "Color Themes":#themes
+* "Code Fonts":#fonts
+</div>
+
+h1(#sublime_text). Sublime Text
+
+h3. Themes
+
+* "Soda":https://github.com/buymeasoda/soda-theme/
+* "Magnificent Theme":https://github.com/kuroir/Sublime-Magnificent-Theme
+* "pseudo-osx":https://github.com/raik/st2-pseudo-osx-theme
+* "refresh":https://github.com/BoundInCode/st2-refresh-theme
+* "nil":https://github.com/nilium/st2-nil-theme
+* "flatland":https://github.com/thinkpixellab/flatland
+* "Spacegray":http://kkga.github.io/spacegray/
+* "Seti":https://github.com/ctf0/Seti_ST3
+
+h3. Color Schemes
+
+* "Tomorrow":https://github.com/ChrisKempson/Tomorrow-Theme
+* "Railscasts":https://github.com/ryanb/textmate-themes
+* "Solarized":http://ethanschoonover.com/solarized
+* "DobDark":https://github.com/charlesroper/DobDark-Theme
+* "afterglow":https://github.com/YabataDesign/afterglow-theme
+* "cobalt2":https://github.com/wesbos/cobalt2
+
+h3. Packages
+
+* "Sublime Package Control":http://wbond.net/sublime_packages/package_control - Sublime Text包管理器
+* "Packages by Will Bond":http://wbond.net/sublime_packages/
+* "Haml-Sass":https://github.com/n00ge/sublime-text-haml-sass - haml和sass支持
+* "CSS格式化":https://gist.github.com/2863474
+* "Sublime CodeIntel":https://github.com/Kronuz/SublimeCodeIntel - 智能代码提示
+* "OmniMarkupPreviewer":https://github.com/timonwong/OmniMarkupPreviewer - Markdown 实时预览插件
+* "SideBarEnhancements":https://github.com/titoBouzout/SideBarEnhancements - 左边栏菜单增强插件
+* "SublimeWebInspector":http://sokolovstas.github.com/SublimeWebInspector/ - 前端调试插件
+* "ST2Nginx":https://github.com/kvs/ST2Nginx - Nginx高亮包
+* "autoprefixer":https://github.com/sindresorhus/sublime-autoprefixer - 给CSS自动添加兼容前缀
+* "livestyle":http://www.dbpoo.com/sublime-emmet-livestyle/ - 实时刷新插件
+* "FTPSync":https://github.com/NoxArt/SublimeText2-FTPSync - FTP同步工具
+
+h3. References
+
+* "Sublime Text 3 官方文档（中文版）":http://feliving.github.io/Sublime-Text-3-Documentation/
+* "Sublime Text 手册（繁体版）":http://docs.sublimetext.tw/
+* "Sublime Text 2 Tips and Tricks":http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/
+* "Sublime Text 2 入门及技巧":http://lucifr.com/139225/sublime-text-2-tricks-and-tips/
+* "ZenCoding in Sublime Text 2":http://lucifr.com/139231/zencoding-in-sublime-text-2/
+* "Sublime Text 2 实用快捷键[Mac OS X]":http://lucifr.com/139235/sublime-text-2-useful-shortcuts/
+* "Sublime Text 2 使用小记":http://readful.com/post/9774110738/sublime-text-2
+* "Sublime Text 2 快速上手":http://hhuai.github.com/blog/2012/01/08/sublime-text-intro/
+* "Sublime Text 2 设置文件详解":http://www.feelcss.com/sublime-text-2-settings.html
+
+h1(#vim). Vim
+
+h3. Plugins
+
+* "Ack":http://www.vim.org/scripts/script.php?script_id=2572 ("github":https://github.com/mileszs/ack.vim) - 快速检索插件
+* "Command-T":http://www.vim.org/scripts/script.php?script_id=3025 / "ctrlp":http://kien.github.com/ctrlp.vim/ - 快速匹配打开文件
+* "ctags":http://ctags.sourceforge.net/ - 语法元素扫描记录工具
+* "MattchTag":http://www.vim.org/scripts/script.php?script_id=3818 - html标签高量匹配
+* "NERDTree":http://www.vim.org/scripts/script.php?script_id=1658 - 文件树列表
+* "Indent Guides":http://www.vim.org/scripts/script.php?script_id=3361 - 缩进提示线
+* "Powerline":https://github.com/Lokaltog/vim-powerline - 强大实用美观的状态条
+* "Rails":http://www.vim.org/scripts/script.php?script_id=1567 - rails开发必备利器
+* "snipMate":http://www.vim.org/scripts/script.php?script_id=2540 - 类似Textmate的代码自动补全插件
+
+h3. Color Theme
+* "Color Theme Test":http://code.google.com/p/vimcolorschemetest/
+* "rootwater":http://vimcolorschemetest.googlecode.com/svn/colors/rootwater.vim
+* "ps_color":http://vimcolorschemetest.googlecode.com/svn/colors/ps_color.vim
+
+h3. Config Files
+* "Maximum Awesome":https://github.com/square/maximum-awesome - Config files for vim and tmux. (由 Square 的技术团队开源提供)
+* "janus":https://github.com/carlhuda/janus
+* "vimx":https://github.com/guoqiao/vimx
+* "vimified":https://github.com/ayang/vimified
+* "k-vim":https://github.com/wklken/k-vim
+* "humiaozuzu/dot-vimrc":https://github.com/humiaozuzu/dot-vimrc
+
+h3. Other
+* "Vim官方网站":http://www.vim.org/
+* "MacVim":https://github.com/b4winckler/macvim/downloads
+* "Vim在线视频教程":http://vimcasts.org/
+* "闲耘整理的Vim Wiki":http://wiki.hotoo.me/Vim.html
+* "Vim图表":http://michael.peopleofhonoronly.com/vim/
+* "Vim图表2":http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png
+* "Vim-Adventures":http://vim-adventures.com/ - 一款在线Vim游戏
+
+h1(#emacs). Emacs
+
+h3. References
+* "Emacs使用指南":https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org
+* "使用 Emacs":https://ruby-china.org/wiki/emacs-for-rails
+
+h1(#eclipse). Eclipse
+
+h3. Plugins
+* "EasyStruts":http://sourceforge.net/projects/easystruts/ - 打开选定文件所在目录
+* "Fullscreen":http://scharf.gr/eclipse/fullscreen/update/ - 全屏插件
+* "Subclipse":http://subclipse.tigris.org - SVN插件
+* "Flex Formatter":http://sourceforge.net/projects/flexformatter/ - 代码格式化插件
+* "SourceMate":http://www.elementriver.com/sourcemate - 编码增强工具
+* "Eclipse Color Theme":https://github.com/eclipse-color-theme/eclipse-color-theme - 配色插件
+
+h1(#jetbrains). JetBrains
+
+h3. References
+* "大猫的前端开发指南":https://github.com/damao/Intellij-IDEA-F2E
+
+h3. Color Theme
+* "Smyck":https://github.com/rotespferd/Smyck-Color-Scheme/blob/master/Smyck-Jetbrains.xml
+* "Paraiso":https://github.com/idleberg/Paraiso-IntelliJ-IDEA
+* "Kimbie":https://github.com/idleberg/Kimbie-IntelliJ-IDEA
+* "ApplePips":https://github.com/idleberg/ApplePips-IntelliJ-IDEA
+
+h3. 常用快捷键
+* Ctrl+Q：查看注释信息
+* Alt+Insert：生成代码，如get、set方法
+* Alt+Enter：导入包、自动修正、生成未定义的方法
+* Ctrl+N：查找类
+* Ctrl+Shift+N：查找文件
+* Ctrl+Alt+left/right：返回至上次浏览的位置
+* Ctrl+/：单行注释
+* Ctrl+Shift+/：多行注释
+* Alt+F3：快速查找
+* Ctrl+O：重载一个方法
+* Ctrl+Shift+F7：高亮显示所有该文本，按Esc高亮消失
+* Alt+F7：查找整个工程中使用地某一个类、方法或者变量的位置
+* Ctrl+Shift+S：高级搜索
+* Ctrl+Shift+F：全局查找
+* Ctrl+"+/-"：当前方法展开、折叠
+* Ctrl+Shift+"+/-"：全部展开、折叠
+* Ctrl+J：生成代码，如for循环等
+
+h1(#xcode). Xcode
+
+h3. Plugins
+* "Alcatraz":http://mneorr.github.io/Alcatraz/ ("使用教程":http://blog.devtang.com/blog/2014/03/05/use-alcatraz-to-manage-xcode-plugins/) - Xcode 插件管理器 
+* "BBUDebuggerTuckAway":https://github.com/neonichu/BBUDebuggerTuckAway - 编写代码时自动收缩底部调试栏
+* "ClangFormat-Xcode":https://github.com/travisjeffery/ClangFormat-Xcode - 格式化插件
+* "CodePilot":https://github.com/macoscope/CodePilot - Quick Open 的增强插件
+* "FuzzyAutocompletePlugin":https://github.com/chendo/FuzzyAutocompletePlugin - 增强的自动完成插件
+* "KFCocoaPodsPlugin":https://github.com/ricobeck/KFCocoaPodsPlugin - XcodePlugin for CocoaPods with pod commands/console output, user notifications & code completion.
+* "KSImageNamed":https://github.com/ksuther/KSImageNamed-Xcode - 图片名自动提醒和预览
+* "WDocumenter":https://github.com/onevcat/VVDocumenter-Xcode - Javadoc Style 注释生成
+* "XMate":https://github.com/PrideChung/XMate - TextMate and Emacs goodies for Xcode.
+* "fui":https://github.com/dblock/fui - Find unused Objective-C imports.
+** "xcfui":https://github.com/jcavar/xcfui
+* "lin":https://github.com/questbeat/Lin-Xcode5 - 多语言管理插件
+
+h3. 常用快捷键
+* *Control + I* : 对选中文字重新格式化
+* *Control + Command + UP / DOWN* : 切换当前文件头文件和实现文件
+* *Control + Command + LEFT / RIGHT* : 切换历史上/下一个文件
+* *Option + LEFT / RIGHT* : 以单词为单位移动光标
+* *Command + LEFT / RIGHT* : 移动光标到行头/行尾
+* *Control + A / E* : 移动光标到行头/行尾
+* *Shift + Command + O*: 快速定位文件
+* *Shift + Command + J* : 在项目导航中定位当前文件
+* *Command + B* : 编译但不运行
+* *Command + R* : 编译并运行
+* *F6* : Step Over 单步
+* *F7* : Step Into 跳入
+* *F8* : Step Out 跳出
+* *Control + Command + Y* : 继续运行
+
+h3. Other
+* "XCode快捷键图示":/uploads/xcode.jpg
+* "xcode-themes":https://github.com/tursunovic/xcode-themes
+
+h1(#webide). Web IDE
+* "CodeBox":https://www.codebox.io/
+* "Koding":https://koding.com
+* "compilr":http://compilr.com - 支持语言众多
+* "CoderBuddy":http://coderbuddy1.appspot.com - 可以在线创建、编辑、发布google app engine应用的网站
+* "Cloud9 IDE":https://c9.io/ - 在线云IDE支持 Github 和 BitBucket
+* "Nitrous.io":https://www.nitrous.io
+* "Codenvy":https://codenvy.com/
+
+h1(#osx). OSX相关
+* "Atom":https://atom.io/ - Github 推出的一款开源编辑器
+* "CodeRunner":http://soft.macx.cn/index.htm - 快速编译运行代码片段
+* "Tincta":http://mr-fridge.de/software/tincta/index.php - 文本编辑器
+* "MacVim":http://code.google.com/p/macvim/
+* "AppCode":http://www.jetbrains.com/objc/ - an Objective-C IDE That Makes a Defference
+* "TextMate":http://macromates.com/ - 代码编辑工具
+* "Coda":http://www.panic.com/coda/ - 支持FTP/SFTP等连接方式的代码编辑工具
+** "Coda 2 Themes":http://ipaintcode.com/coda-2-themes/
+** "Tabster":http://code.google.com/p/tabsterforcoda/ - 能够使Coda支持多行缩进的插件
+* "BBEdit":http://www.barebones.com/products/bbedit/ - BBEdit is the leading professional HTML and text editor for the Macintosh. 
+* "Chocolat":http://chocolatapp.com/ - 功能类似textmate的编辑器
+* "TextWrangler":http://www.barebones.com/products/textwrangler/ - TextWrangler is the “little brother” to BBEdit
+* "Vico":http://www.vicoapp.com/ - 类似于VIM的可视化代码编辑工具
+* "xmplify":http://xmplifyapp.com/ - XML编辑器
+* "Espresso":http://macrabbit.com/espresso/ 前段web集成开发环境
+* "0xED":http://www.suavetech.com/0xed/0xed.html - 16进制编辑器
+* "SweetScape 010 Editor":http://www.sweetscape.com/ - 同上
+* "Mou":http://mouapp.com/ - markdown编辑器
+* "CssEdit":http://macrabbit.com/cssedit/ - 完美的CSS编辑器
+* "Json Editor":http://jsoneditor.blogspot.ro/
+
+h1(#windows). Windows相关
+* "Notepad++":http://notepad-plus-plus.org/ - 免费强大的代码编辑工具
+* "Intype":http://inotai.com/intype/ - Windows下的textmate替代软件
+* "SciTe":http://www.scintilla.org/
+* "EmEditor":http://www.emeditor.com/
+* "EverEdit":http://www.everedit.net/ - 一款国人开发的编辑器，有不少独到的实用功能
+* "Notepad2":http://www.flos-freeware.ch/notepad2.html - 简单轻便的最适合替代系统notepad的编辑器
+** "Notepad2-Mod":http://code.google.com/p/notepad2-mod/ - 官方版本的分支，加强了代码支持
+** 通过 "映像劫持":http://www.portablesoft.org/notepad2-replacement/ 实现Notepad2替换记事本
+
+h1(#themes). Color Themes
+* "base16":https://github.com/chriskempson/base16
+* "Solarized":http://ethanschoonover.com/solarized
+* "Dracula":https://github.com/zenorocha/dracula-theme
+
+h1(#fonts). Code Fonts
+* "Meslo":https://github.com/andreberg/Meslo-Font - 在不支持调整行高的编辑器下用这款字体很合适
+* "Adobe Source Code Pro":http://sourceforge.net/projects/sourcecodepro.adobe/ - adobe 推出的代码字体
+* "Source Sans Pro":http://sourceforge.net/projects/sourcesans.adobe/ - 同上
+* "Input":http://input.fontbureau.com/
+* "PT Mono":http://www.google.com/fonts/specimen/PT+Mono
+* "Anonymous Pro":http://www.marksimonson.com/fonts/view/anonymous-pro
+* "Pragmata Pro":http://www.fsd.it/fonts/pragmatapro.htm
+* "M+ Fonts":http://mplus-fonts.sourceforge.jp/

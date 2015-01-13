@@ -1,0 +1,220 @@
+---
+layout: default
+title: iDev
+---
+
+h1. iDev
+
+h3. Utility Tools
+* "Objective-C Runtime Bowser":https://github.com/nst/RuntimeBrowser
+* "F-Script":http://www.fscript.org/
+* "AppleDoc":http://gentlebytes.com/appledoc/ - API文档生成器
+* "ConciseKit":https://github.com/petejkim/ConciseKit - 用Macros简化ObjectiveC开发
+* "CocosBuilder":http://cocosbuilder.com/ - Cocos场景编辑器
+* "Injection for Xcode":http://injectionforxcode.com/ - 可以让Xcode调试时直接修改看结果，不用Build
+* "PonyDebugger":https://github.com/square/PonyDebugger - 使用 Google Chrome Developer Tools 设试 iOS app
+* "CocoaPods":https://github.com/CocoaPods/CocoaPods - 库依赖关系管理器
+* "Alcatraz":http://mneorr.github.io/Alcatraz/ - Xcode的包管理器
+* "Spark Inspector":http://sparkinspector.com/ - 实时调试 iOS 应用
+* "Reveal":http://revealapp.com/ - ios开发UI调试工具
+* "The Missing UI Debugger":http://hierarchydetective.com/ - 同上，开源实现
+* "json_to_model":https://github.com/clowwindy/json_to_model - 将 JSON 转化为 Model 类
+* "NSLogger":https://github.com/fpillet/NSLogger - 一款强大、免费、必备的Log输出工具
+* "CoreDataPro":https://github.com/yepher/CoreDataUtility
+* "AGi18n":https://github.com/angelolloqui/AGi18n - 自动生成多语言翻译内容
+* 逆向常用工具
+** "Reveal":http://blog.csdn.net/yiyaaixuexi/article/details/18220875
+** "Cycript":http://blog.csdn.net/yiyaaixuexi/article/details/18317819
+** "Class-dump":http://blog.csdn.net/yiyaaixuexi/article/details/18353423
+** "Keychain-Dumper":http://blog.csdn.net/yiyaaixuexi/article/details/18404343
+** "gdb":http://blog.csdn.net/yiyaaixuexi/article/details/18520053
+** "iNalyzer":http://blog.csdn.net/yiyaaixuexi/article/details/18968125
+** "introspy":http://blog.csdn.net/yiyaaixuexi/article/details/18985131
+** "Fishhook":http://blog.csdn.net/yiyaaixuexi/article/details/19094765
+** "removePIE":http://blog.csdn.net/yiyaaixuexi/article/details/20391001
+** "IDA pro":https://www.hex-rays.com/index.shtml
+** "Hopper":http://www.hopperapp.com/
+** "snoop-it":https://code.google.com/p/snoop-it/
+** "iDB":https://github.com/dmayer/idb
+** "Charles":http://www.charlesproxy.com/
+** "SSL Kill Switch":https://github.com/iSECPartners/ios-ssl-kill-switch
+
+h3. Library
+* "AFNetworking":https://github.com/AFNetworking/AFNetworking - 好用的网络请求库 for iOS and OS X（请求接口，加载图片，上传文件等）
+* "YTKNetwork":https://github.com/yuantiku/YTKNetwork - YTKNetwork is a high level request util based on AFNetworking.
+* "ASIHTTPRequest":https://github.com/pokeb/asi-http-request - 适合开发一些复杂应用的网络库
+* "RegexKit Framework":http://regexkit.sourceforge.net/ - 正则表达式库
+* "NSAttributedStringMarkdownParser":https://github.com/jverkoey/NSAttributedStringMarkdownParser - MarkDown解析库
+* "UIImageView-BetterFace":https://github.com/croath/UIImageView-BetterFace - 智能人物缩略图生成工具，可以让人脸保持在合适的位置
+* "RegEx-Categories":https://github.com/bendytree/Objective-C-RegEx-Categories - Categories on NSRegularExpression that make regular expressions more concise in Objective-C
+* "EZAudio":http://syedharisali.com/projects/EZAudio/getting-started - 一个 iOS 和 OSX 上简单易用的音频框架
+* "MASShortcut":https://github.com/shpakovski/MASShortcut - 快捷方式控件
+* "CocoaAsyncSocket":https://github.com/robbiehanson/CocoaAsyncSocket - Asynchronous socket networking library for Mac and iOS
+* "BaseKit":https://github.com/brunow/BaseKit - BaseKit is a set of iOS class to make your life easier.
+* "BlockAlertsAnd-ActionSheets":https://github.com/gpambrozio/BlockAlertsAnd-ActionSheets - UIAlertView和UIActionSheet，基于Blocks可以方便在代码中应用，而不用写delegate
+* "Core Plot":http://code.google.com/p/core-plot/ - 图表库
+* "JBChartView":https://github.com/Jawbone/JBChartView - 另一个图表库，代码风格、文件结构都值得学习
+* "DLCImagePickerController":https://github.com/gobackspaces/DLCImagePickerController - 给照片添加滤镜
+* "GPUImage":https://github.com/BradLarson/GPUImage - DLCImagePickerController 需要这个库的支持
+* "ibireme整理的开源库":http://github.ibireme.com/github/list/ios/
+* "iOS Boilerplate":http://iosboilerplate.com/ - A base template for iOS apps
+* "iOS-Cards":https://github.com/finiteloop/ios-cards - 一款渲染扑克牌的库
+* "iPhone wireframe UI kit":http://www.anthonyaubertin.com/wireframe/
+* "LTUpdate":https://github.com/lexrus/LTUpdate - 一个可以主动提供指定应用更新消息的库
+* "Mantle":https://github.com/github/Mantle - Model framework for Cocoa and Cocoa Touch, JSON dictionary 和 model class 互转
+* "MBProgressHUD":https://github.com/jdg/MBProgressHUD - 显示加载状态
+* "MTStatusBarOverlay":https://github.com/myell0w/MTStatusBarOverlay - 状态栏显示提示信息
+* "PNChart":https://github.com/kevinzhow/PNChart - A simple and beautiful chart lib used in Piner for iOS
+* "PSTCollectionView":https://github.com/steipete/PSTCollectionView - 可以支持到 iOS 4.3 的 UICollectionView
+* "QuickDialog":https://github.com/escoz/QuickDialog - 简单易用的TableViews类
+* "SSToolkit":http://sstoolk.it/ - 一些常用数据操作和 UI 部件的开源实现
+* "Tree20":https://github.com/facebook/three20 - Facebook发布的一套开源类库
+* "Shimmer":https://github.com/facebook/Shimmer - 实现 shimmering 效果
+* "Stalker":https://github.com/BendingSpoons/Stalker - developer friendly KVO and NSNotification​ interface
+* "popping":https://github.com/schneiderandre/popping - A collection of animation examples
+* "CBStoreHouseRefreshControl":https://github.com/coolbeet/CBStoreHouseRefreshControl - 自定义图形的酷炫下拉刷新库
+* "ZLSwipeableView":https://github.com/zhxnlai/ZLSwipeableView - 一款卡片效果库，支持各种卡片滑动效果
+* "MMDrawerController":https://github.com/mutualmobile/MMDrawerController - 一款抽屉侧滑库
+* "Masonry":https://github.com/Masonry/Masonry - 自动布局库，支持 iOS 和 OSX
+* "PureLayout":https://github.com/smileyborg/PureLayout - 简单强大的 AutoLayout API，支持 iOS 和 OSX，并兼容 Objective-c 和 Swift
+* "MKNetworkKit":https://github.com/MugunthKumar/MKNetworkKit - 简单高效的网络库
+* "SDWebImage":https://github.com/rs/SDWebImage - 图片缓存库
+* "KoaPullToRefresh":https://github.com/sergigracia/KoaPullToRefresh - 下拉刷新库
+* "Alamofire":https://github.com/Alamofire/Alamofire - an HTTP networking library written in Swift
+* "peertalk":https://github.com/rsms/peertalk - 实现iOS和OSX设备间通过数据线进行通信的库
+
+h3. Framewok
+* "ReactiveCocoa":https://github.com/ReactiveCocoa/ReactiveCocoa - 由 Github 开源的应用于 iOS 和 OS X 开发的框架具有函数式和响应式编程的特性
+* "Mantle":https://github.com/Mantle/Mantle - Model framework for Cocoa and Cocoa Touch
+* *Network*
+** "RestKit":http://restkit.org/ ("Github":https://github.com/RestKit/RestKit) - RESTful 工具包 RestKit for iOS and OS X
+* *Game*
+** "Cocos2D":http://www.cocos2d-iphone.org/
+*** "CCTextField":https://github.com/iNinja/CCTextField - Cocos2D 下，文本输入框的第三方实现
+*** "ApporTable SDK":http://www.apportable.com/ - 可以将 Cocos2D-iPhone 移植到 Android 平台的 SDK
+** "Sparrow":http://gamua.com/sparrow/ - The Open Source Game Engine for iOS
+** "KoboldKit":http://koboldkit.com/ - 基于 SpriteKit 的开源多平台游戏引擎
+* *Other*
+** "Bee-Framework":http://www.Bee-Framework.com - 使用 html 和 css 来对 iOS 程序进行原生排版辅助的框架
+
+h3. WebSite
+* "Code4App":http://code4app.com/ - 移动平台代码库
+* "iOS-WIKI":http://www.ios-wiki.com/
+* "Cocoa Controls":http://www.cocoacontrols.com/ - 针对Cocoa的代码库
+* "Apple Sample Code":http://developer.apple.com/iphone/library/navigation/SampleCode.html - 官方示例代码库
+* "Cocoa-China代码例子区":http://www.cocoachina.com/bbs/thread.php?fid=19
+* "Github-Objective-C":https://github.com/search?language=Objective-C
+* "CocoaObjects":http://cocoaobjects.com/
+* "CocoaControls":http://www.cocoacontrols.com/ - 自定义UI控件库
+* "泰然教程":http://article.ityran.com/tutorials
+* "App Store 应用申诉入口":http://www.apple.com/legal/itunes/appstorenotices/
+* "Ray Wenderlich":http://www.raywenderlich.com - 很强大的国外教程站
+
+h3. UI设计相关网站
+* "iOS Inspires Me":http://iosinspires.me/
+* "UI4APP":http://ui4app.com/
+* "mokk":http://www.mokk.me/e - 在 Web 上 做出 ios UI 应用界面，并生成 URL 分享给他人
+* "DevRocket":http://devrocket.uiparade.com/ - 一款 Photoshop 插件，方便制作精美的 APP 原型
+* "Balsamiq Mockups":http://www.balsamiq.com/products/mockups - 手绘样式的 UI 设计图，用于生成原型草图
+* "UI-Transitions":http://www.ui-transitions.com - UI设计各种动画的使用
+* *UI 相关*
+** "Pttrns":http://pttrns.com/
+** "Patterns of Design":http://www.patternsofdesign.co.uk/
+** "Mobile UI Patterns":http://mobile-patterns.com/
+** "TapFancy":http://tapfancy.com/
+** "TappGala":http://www.tappgala.com/
+** "Well-Placed Pixels":http://wellplacedpixels.com/
+** "LovelyUI":http://www.lovelyui.com/
+** "Building iPhone Apps":http://buildingiphoneapps.posterous.com/
+** "Landing Pad":http://landingpad.org/
+** "Stylish iPad Apps":http://stylishipadapps.tumblr.com/
+** "Stylapps":http://itunes.apple.com/us/app/stylapps/id444930066
+* iOS网站相关
+** "AppSites":http://www.appsites.com/
+* 素材相关
+** "iPad Sketch Elements AI":http://www.teehanlax.com/downloads/ipad-sketch-elements-ai/ - iPad 各种控件的素描效果(AI格式)
+** "iPhone Sketch Elements AI":http://www.teehanlax.com/downloads/iphone-sketch-elements-a/ - iPhone 的同上
+** "iPhone 4 GUI PSD (Retina Display)":http://www.teehanlax.com/downloads/iphone-4-guid-psd-retina-display/ - iPhone4的控件集合（支持Retina），PSD格式
+** "iOS5 GUI PSD":http://www.teehanlax.com/downloads/ios-5-gui-psd-iphone-4s/ - iPhone5的控件集合，PSD格式
+** "iPad GUI PSD (Retina Display)":http://www.teehanlax.com/downloads/ipad-gui-psd-retina-display/ - iPad的控件集合（支持Retina），PSD格式
+** "iPhone 4 外观 PSD":http://zandog.deviantart.com/art/Apple-iPhone-4S-PSD-161681253? - 在展示你app的截图时，配上真实的iPhone图，会让你的app更加好看
+** "iPad 外观 PSD":http://www.officialpsds.com/iPad-Package-PSD42155.html
+** "160款免费iPhone Tool Bar icon图标":http://www.pixelpressicons.com/?p=108
+** "64款免费iPhone Tool Bar icon图标":http://app-bits.com/downloads/iphone-toolbar-icon-set.html
+** "30个免费iPhone Tab Bar上的icon图标":http://www.dezinerfolio.com/freebie/30-free-vector-icons
+** "60个免费iOS图标icon":http://www.iconsweets.com/
+** "Touchscreen Hand Gestures":http://graffletopia.com/stencils/439 - 手势图
+** "gesturecons":http://gesturecons.com/ - 同上
+** "iOS5字体集合（包括iPhone和iPad）":http://iosfonts.com/
+
+h3. Tools
+* "Google Analytics for Mobile 统计解决方案":http://code.google.com/mobile/analytics/
+* "Project Statistics for Xcode":https://itunes.apple.com/cn/app/project-statistics-for-xcode/id650764572 - xcode 项目分析软件，统计项目详细信息
+
+h3. Open Source Projects
+* *Mac OS X*
+** "GoAgentX":https://github.com/ohdarling/GoAgentX
+
+* *iOS*
+** "RSSRead":https://github.com/ming1016/RSSRead
+** "HackerNews客户端":https://github.com/Xuzz/newsyc
+** "Ruby-China官方客户端":https://github.com/ruby-china/ruby-china-for-ios
+** "WhiteHouse":https://github.com/WhiteHouse/wh-app-ios
+** "FFCalendar":https://github.com/fggeraissate/FFCalendar
+** "egmentFault客户端":https://github.com/gaosboy/iOSSF
+** "OSChina客户端":http://git.oschina.net/oschina/iphone-app
+** "Tiny Wings":https://github.com/haqu/tiny-wings
+** "iOS7-Sampler":https://github.com/shu223/iOS7-Sampler - ios7最新特征实例代码
+** "美剧英语每日一句":https://github.com/imtiger/HappyEnglish
+
+h3. API
+* "Google Reader API":http://code.google.com/p/r2-release/wiki/GoogleReaderApi
+
+h3. References
+* "苹果官方Objective-C编码规范":http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
+* "objc.io":http://www.objc.io/
+* "objccn.io":http://objccn.io/
+* "NSHipster":http://nshipster.com/
+* "NSHipster中文站":http://nshipster.cn/
+* "iOS Developer Tips":http://iosdevelopertips.com/
+
+* *iOS*
+** "iOS 入门开发指南（官方中文版）":http://developer.apple.com/library/ios/#referencelibrary/GettingStarted/RoadMapiOSCh/chapters/Introduction.html
+** "iOS 入门开发指南（果迷网翻译版）":http://www.guomii.com/posts/20250
+** "iOS Dev Weekly":http://iosdevweekly.com/
+** "iOS Design Weekly":http://iosdesign.co/
+** "Introduction to Coding Guidelines for Cocoa":http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
+* "iOS项目的目录结构和开发流程 - 无网不剩":http://blog.leezhong.com/ios/2013/09/23/build-ios-application.html
+* "NSScreencast":http://nsscreencast.com/ - iOS 开发视频教程站
+
+* *Swift*
+** "Swift Coder Weekly":http://swift-coder.info/
+** "Swift Dev Weekly":http://swiftdev.tips/
+** "Swift Development newsletter":http://swiftweekly.com/
+** "Swift官方电子书":https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11&ign-mpt=uo%3D8
+** "官方Swift翻译版":http://numbbbbb.gitbooks.io/-the-swift-programming-language-/
+** "CocoaChina的Swift教程资源":http://www.cocoachina.com/special/swift/
+
+* Learn to Create Successful Apps
+** http://appdesignvault.s3.amazonaws.com/foody-tutorial/(001-010).mp4
+** "XCode Sample Project":http://www.appdesignvault.com/downloads/FoodySampleProject.zip
+
+h3. Website
+* "Flurry":http://www.flurry.com/ - App数据分析服务平台， "介绍文章":http://blog.devtang.com/blog/2013/10/24/use-flurry-to-analyse-data/
+* "App Viz":http://www.ideaswarm.com/AppViz2.html - App销售追踪统计软件
+* "App Sales":https://github.com/omz/AppSales-Mobile - 开源的第三方的APP销售统计工具
+* "appFigures":http://appfigures.com/ - 报表释出时间统计服务
+* "Crashlytics":https://www.crashlytics.com/ - 优雅方便的崩溃报告工具
+* "iMZDL":http://imzdl.com/ - 苹果官方相关软件下载
+* "Cocoadocs":http://cocoadocs.org/ - 各种库的 API 查询站
+* "MacCocoa":http://maccocoa.com/ - OSX 开发社区
+* "Avatars":http://avatars.io/ - App图标生成网站
+* "TestFight":https://testflightapp.com/ - 好用的应用测试平台
+* "中文 iOS/Mac 开发博客列表":https://github.com/tangqiaoboy/iOSBlogCN
+
+h4. Github
+* "Applidium":http://applidium.github.io
+* "Ciechan":https://github.com/Ciechan
+* "Ali Karagoz":https://github.com/alikaragoz
+* "Jesse Andersen":https://github.com/gotosleep
+* "Florent Pillet":https://github.com/fpillet

@@ -1,0 +1,79 @@
+---
+layout: default
+title: Database
+---
+h1. Database
+
+h3. Relational Database
+
+* "MySQL":http://www.mysql.com/
+** "TokuDB":http://www.tokutek.com/products/tokudb-for-mysql/ - MySQL 数据引擎，性能比 InnoDB 还要好
+** "WebScaleSQL":http://webscalesql.org/
+** "MySQL Utilities":http://dev.mysql.com/doc/mysql-utilities/1.3/en/index.html - MySQL 官方工具集，包括 MySQL diff
+* "PostgreSQL":http://www.postgresql.org/
+* "SQLite":http://sqlite.org/
+* "SQL Server":http://www.microsoft.com/sqlserver/
+* "Oracle":http://www.oracle.com
+* "DB2":http://www-01.ibm.com/software/data/db2/
+* "OceanBase":http://alibaba.github.io/oceanbase/ - 阿里巴巴出品的可扩展关系型数据库
+* "Realm":http://realm.io/ - 一款手机数据库
+
+h3. NoSQL Database
+
+* **Document Store**
+** "MongoDB":http://www.mongodb.org/ - a scalable, high-performance, open source, document-oriented database. Written in C++.
+*** "nuxeo":http://www.nuxeo.com/ - MongoDB for enterprises.
+** "CouchDB":http://couchdb.apache.org/
+** "Terrastore":http://code.google.com/p/terrastore/
+** "ThruDB":http://code.google.com/p/thrudb/
+
+* **Key-Value / Tuple Store**
+** "LevelDB":http://code.google.com/p/leveldb/ - Google开发的速度飞快的数据库键值存储引擎，可按照字符串键值顺序映射。
+** "Redis":http://redis.io/ - advanced key-value store.
+*** "Redis设计与实现":http://www.redisbook.com/en/latest/
+*** "Redis命令参考简体中文版":http://redis.readthedocs.org/en/2.4/index.html
+*** "Redis监控管理web工具":https://github.com/steelThread/redmon
+*** "Redsmin":https://redsmin.com/ - Redis图形化管理工具
+*** "Twemproxy":https://github.com/twitter/twemproxy - 通过引入一个代理层，可以将其后端的多台 Redis 或 Memcached 实例进行统一管理与分配
+** "MemcacheDB":http://memcachedb.org/
+** "Couchbase":http://www.couchbase.org/ 一款被Draw Something游戏使用的NoSQL数据库
+** "Cassandra":http://cassandra.apache.org/
+** "Tokyo Cabinet":http://fallabs.com/tokyocabinet/
+** "BerkeleyDB":http://www.oracle.com/technetwork/products/berkeleydb/downloads/index.html
+** "Samba's TDB":http://tdb.samba.org/
+** "cdb":http://cr.yp.to/cdb.html
+
+h3. Other
+
+* "Twemproxy":https://github.com/twitter/twemproxy - 针对 MemCached 与 Redis 的代理服务器，可以通过它减少Memcached或Redis服务器所打开的连接数
+
+h3. Tools
+
+* "adminer":http://www.adminer.org/ - 基于 PHP 的强大的单文件数据库管理工具，支持 MySQL, PostgreSQL, SQLite, MS SQL 和 Oracle
+* "phpmyadmin":http://www.phpmyadmin.net/ - 基于 PHP 的老牌 MySQL 管理工具
+* "MySQL Workbench":http://www.mysql.com/products/workbench/ - MySQL官方强大的跨平台管理工具
+* "Navicat Premium":http://www.navicat.com/en/products/navicat_premium/premium_overview.html - 第三方强大的跨平台数据库管理工具
+* "Sequel Pro":http://www.sequelpro.com/ - Mac 平台下的 MySQL 管理应用
+* "MesaMySQL":http://www.desertsandsoftware.com/ - 同上
+* "dbv":http://dbv.vizuina.com/ - MySQL 的版本控制工具
+* "MesaSQLite":http://www.desertsandsoftware.com/ - OSX平台下的 SQLite 管理应用
+* "Induction":http://inductionapp.com/ - A Polyglot Database Client for Mac OS X
+* "Querious":http://www.araelium.com/querious/ - MySQL管理工具 for Mac OS X
+* "Sequel Pro":http://www.sequelpro.com/ - 免费MySQL管理工具 for Mac OS X
+* "Induction":http://inductionapp.com/ - 数据库管理工具，支持PostgreSQL、MySQL、Redis、MongoDB for Mac OS X
+* *Redis*
+** "phpRedisAdmin":https://github.com/ErikDubbelboer/phpRedisAdmin - php实现的redis管理工具
+* *MongoDB*
+** "Robomango":http://robomongo.org/ - 跨平台的 MongoDB 管理工具
+** "RockMongo":http://code.google.com/p/rock-php/ - 基于PHP的MongoDB Web管理工具
+** "MongoVUE":http://www.mongovue.com/ - 基于.Net的MongoDB windows管理工具
+** "Genghis":http://genghisapp.com/ - 基于Ruby的Web管理工具
+** "RozorSQL":http://www.razorsql.com/ - 一款划平台的数据库管理工具，支持众多数据库
+
+h3. References
+
+* "Postgres指南":http://pgguide.lxneng.com/
+* "Making MySQL Better at GitHub":https://github.com/blog/1880-making-mysql-better-at-github
+
+h3. Books
+* "SQL反模式":http://book.douban.com/subject/6800774/

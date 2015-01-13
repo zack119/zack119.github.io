@@ -1,0 +1,50 @@
+---
+layout: default
+title: Open Source Projects
+---
+
+h1. {{ page.title }}
+
+* "开源协议图示":/assets/2013/10/license.jpg
+* "awesome-awesomeness":https://github.com/bayandin/awesome-awesomeness - A curated list of awesome awesomeness
+
+h3. 项目相关
+* "gitignore.io":http://www.gitignore.io/ - .gitignore 文件模版
+* "gitignore":https://github.com/github/gitignore - 多种语言的gitignore文件
+* "dotfiles":http://dotfiles.github.com/ - dotfiles集合
+
+h3. 通讯相关
+* "capnproto":http://kentonv.github.io/capnproto/ - 又一款序列化库
+* "Hessian":http://hessian.caucho.com/ - 采用二进制RPC协议的remoting onhttp工具
+* "hprose":https://github.com/andot/hprose
+* "json5":http://json5.org/
+* "MessagePack":http://msgpack.org - 官方宣称比ProtocolBuffers快4倍，比Json快10倍的序列化包
+* "ProtocolBuffers":http://code.google.com/apis/protocolbuffers/ - Google公司开发的一种数据描述语言，类似于 XML 和 JSON 能够将结构化数据序列化
+* "sofa-pbrpc":https://github.com/BaiduPS/sofa-pbrpc - 百度出品的 RPC 库
+* "Thrift":http://thrift.apache.org/ - 一款跨语言部署框架，通过一个中间语言（IDL，接口定义语言）来定义RPC的接口和数据类型。
+* "ZeroRPC":http://zerorpc.dotcloud.com/
+
+h3. 网络相关
+* "shadowsocks":http://shadowsocks.org/
+** "Shadowsocks-libev":https://github.com/madeye/shadowsocks-libev - shadowsocks 协议的轻量级实现
+** "shadowsocks-go":https://github.com/shadowsocks/shadowsocks-go - 用 Go 实现的 Shadowsocks 客户端，支持多平台
+** "shadowsocks-go-local":https://code.google.com/p/shadowsocks-go/downloads/list - 编译好的 shadowsocks-go 客户端
+* "FreeRouter":https://github.com/lifetyper/FreeRouter_V2 - 一个适用于 OpenWRT 的全平台代理方案
+* "cow":https://github.com/cyfdecyf/cow - 一款 http 代理工具，支持 socks5 和 shadowsocks 做为二级代理
+* "CFW":https://github.com/BB9z/CFW - 一份基于IP地址的白名单列表
+* "GFW_Whitelist":https://github.com/n0wa11/gfw_whitelist
+* "Flora_Pac":https://github.com/Leask/Flora_Pac - 一个以国内IP为白名单的PAC列表， "介绍文章":http://www.leaskh.com/blog/2013/10/30/%E6%B5%8B%E8%AF%95%E4%B8%BA-flora_pac-%E6%8F%90%E4%BE%9B-http-host/
+
+h3. 数据相关
+* "elasticsearch":http://www.elasticsearch.org/ - 一款实时搜索和统计引擎
+
+h3. 媒体相关
+* "Mozilla JPEG encoder":https://github.com/mozilla/mozjpeg
+* "pngquant":http://pngquant.org/
+
+h3. 其他
+* "FastDFS":http://code.google.com/p/fastdfs/ - 一款高性能分布式文件系统
+* "Phabricator":http://phabricator.org/ - Facebook 推荐出的基于web的项目管理系统，包含Code Review、工作流管理、漏洞追踪等功能
+* "Gerrit":http://code.google.com/p/gerrit/ - Google的基于Web的项目Code Review系统
+* "codeswarm":https://code.google.com/p/codeswarm/ - 以图形动画形式显示版本管理工具的提交过程
+* "QR Code Generator":http://d-project.googlecode.com/svn/trunk/misc/qrcode/index.html - 二维码生成类库，支持众多语言

@@ -1,0 +1,218 @@
+---
+layout: default
+title: Python
+---
+
+h1. Python
+
+<div id="charpter">
+h3. Contents`
+* "Tools":#tools
+* "Web Framework":#web_framework
+* "App":#app
+* "Web App":#web_app
+* "Packages & Utility Class":#packages
+* "Other":#other
+* "References":#references
+* "Books":#books
+</div>
+
+h3(#tools). Tools
+* "PyCharm":http://www.jetbrains.com/pycharm/ - 来自JetBrains的强大的IDE
+* "Python Tools for Visual Studio":http://pytools.codeplex.com/
+* "Eclipse":http://www.eclipse.org/ + "pydev":http://pydev.org/
+* "Aptana":http://aptana.com
+* "VIM":/pages/software/vim.html
+* "Emacs":http://www.gnu.org/software/emacs/
+* "Sublime Text 2":/pages/software/editor_ide.html#sublime_text - 强大的代码编辑器，堪比MacOS下的textmate
+* "bpython":http://bpython-interpreter.org - 界面很友好功能很强大的python shell
+* "pybuild":https://github.com/goagent/pybuild - 基于 py2exe 的打包 "python 解释器" 脚本
+
+h3(#web_framework). Web Framework
+* "bobo":http://bobo.digicool.com/
+* "Bottle":http://bottlepy.org - 单文件小巧web framework
+* "CheerPy":http://www.cherrypy.org/
+* "circuits":https://bitbucket.org/prologic/circuits/
+* "Django":http://www.djangoproject.com/
+** "dajaxice":http://www.dajaxproject.com/ - easy to use ajax library for django
+** "imagekit":https://github.com/jdriscoll/django-imagekit/ - Automated image processing for Django models
+* "Flask":http://www.pocoo.org/projects/flask/ - a micro web framework
+** "Flask中文文档":http://dormousehole.readthedocs.org/en/latest/ / "github":https://github.com/dormouse/Flask_Docs_ZhCn
+** "Flask中文文档 - yinian1992":http://docs.torriacg.org/docs/flask/
+** "Flask-SQLalchemy中文文档 - yinian1992":http://docs.torriacg.org/docs/flask-sqlalchemy/
+** "开源中国Flask教程":http://www.oschina.net/translate/the-flask-mega-tutorial-part-i-hello-world
+** "Flask Base":https://github.com/notedit/flask-base - Flask虚拟环境搭建
+** *Extension*
+** "Flask-Security":https://github.com/mattupstate/flask-security - 一款登录/权限扩展
+* "Tenjin":http://www.kuwata-lab.com/tenjin/
+* "Tornado":http://www.tornadoweb.org/
+** "torndb":https://github.com/bdarnell/torndb - 基于MySQLdb的封装，方便在tornado操作Mysql数据库
+** "Tornado中文手册":http://www.tornadoweb.cn/
+** "Github上一些不错的Tornado资源":https://github.com/facebook/tornado/wiki/Links
+* "Pylons":http://pylonshq.com/
+* "pysi":https://bitbucket.org/imbolc/pysi
+* "shake":https://github.com/lucuma/shake - 基于 Werkzeug 和 Flask 的 web framework，Flask 之外的另外一种选择
+* "TurboGears":http://turbogears.org/
+* "Web.py":http://webpy.org/
+* "Web2py":http://web2py.com/
+* "wheezy.web":https://bitbucket.org/akorn/wheezy.web
+* "Quixote":http://quixote.ca/
+
+h3(#apps). App
+* "youtube-dl":http://rg3.github.com/youtube-dl/index.html
+* "you-get":https://github.com/soimort/you-get
+
+h3(#web_app). Web App
+* *CMS*
+** "Plone":http://plone.org/
+** "Feincms":http://www.feincms.org/ - 开源CMS系统
+** "Mezzanine":http://mezzanine.jupo.org/ - 基于Django的CMS
+** "zcms":https://github.com/everydo/zcms - 支持Markdown的无数据库极简CMS
+
+* *BBS*
+** "DjangoBB":https://bitbucket.org/slav0nic/djangobb
+** "pyBB":https://bitbucket.org/zeus/pybb
+** "Project Babel 2":https://github.com/livid/v2ex - 托管在google app engine上的社区系统
+** "june":https://github.com/lepture/june - 简约的论坛程序
+** "lusernews":https://github.com/dengzhp/lusernews - 为似于Hacknews的社交新闻系统
+** "post_bar":https://github.com/Rabbit52/post_bar - 使用 web.py 实现的仿 v2ex 社区网站
+** "PBB":https://github.com/whtsky/PBB
+** "F2E.im":https://github.com/PaulGuo/F2E.im - F2E前端社区，使用tornado实现
+** "3n1b.com":https://github.com/3n1b-com/3n1b.com - 使用tornado实现的大学生社区
+
+* *Blog*
+** "DPress":https://github.com/vicalloy/DPress - 基于Django的一个简单博客程序
+** "DevilNotes":https://github.com/Evlos/DevilNotes - 基于 Tornado, Pygments, PyRSS2Gen, Misaka, SQLAchemy 的开源博客程序
+** "logpress-tornado":https://github.com/dengmin/logpress-tornado - 使用tornado,jinja2,peewee开发的基于markdown写作的博客
+** "pypress-tornado":https://github.com/laoqiu/pypress-tornado - 基于tornado开发的团队博客系统
+** "hyde":http://ringce.com/hyde - 一款静态博客系统，支持django模版标签和版本控制
+** "Felix Felicis":http://lab.lepture.com/liquidluck/ - 又一款静态博客系统
+** "acrylamid":https://github.com/posativ/acrylamid - 同上，static blog generator in python with incremental rendering
+** "Letterpress":https://github.com/an0/Letterpress - 基于python的极简博客系统
+
+* *Other*
+** "Vulpix":https://github.com/fanzeyi/Vulpix - "Online Judge System":http://oj.fanhe.org/
+** "42qu.cc":https://bitbucket.org/zuroc/42qu-notepad - 42qu.cc 源码，开源记事本程序
+** "Tornado Gists":https://github.com/peterbe/tornado_gists
+** "PoweredSites":https://bitbucket.org/felinx/poweredsites
+** "tornado-webtools":https://github.com/niwibe/tornado-webtools - Microframework for python 3 based on tornado, jinja2 and sqlalchemy.
+** "thepast":https://github.com/laiwei/thepast - 使用flask写的一款web应用
+** "爱订餐":https://github.com/willerce/aidingcan - 使用flask实现的订餐系统
+
+* *WIKI*
+** "MoinMoinWiki":http://moinmo.in/ ("sources":https://bitbucket.org/thomaswaldmann/moin-2.0) - 用Flask写的的开源wiki系统
+
+h3(#packages). Packages & Utility Class
+* "Github上大于500 followers的库":https://github.com/search?q=followers%3A%3E500&p=1&ref=searchbar&type=Repositories&l=Python
+
+* *安装包源*
+** "v2ex的pip源":http://pypi.v2ex.com/simple/
+** "douban的pip源":http://pypi.douban.com/simple/
+
+* *Network*
+** "lxml":http://lxml.de/ - 一款高性能Python XML库，支持XPath、XSLT，可对XML和HTML执行解析、序列化和转换等
+** "requests":http://python-requests.org/ - Requests is an ISC Licensed HTTP library, written in Python, for human beings.
+** "Logmon":https://github.com/maxcountryman/logmon - Logmon is a realtime log reader written with Flask and Juggernaut.
+** "Gevent":http://www.gevent.org/ - 非常好的用来写 Socket Server 的框架
+*** "Gevent中文指南":http://xlambda.com/gevent-tutorial
+** "Twisted":http://twistedmatrix.com/trac/ - 同上
+** "msgpack":http://msgpack.org/ - 一个据说速度很快的序列化库
+** "zerorpc":https://github.com/dotcloud/zerorpc-python - dotcloud 基于 msgpack 和 zeromq 的 rpc
+
+* *Templating Engine*
+** "Jinja2":http://www.pocoo.org/projects/jinja2/ - Jinja2 is a popular text templating engine for Python
+*** "jinja2中文手册":http://docs.torriacg.org/docs/jinja2/index.html
+
+* *ORM*
+** "autumn":https://github.com/luckythetourist/autumn - a Python ORM
+** "SQLAlchemy":http://www.sqlalchemy.org/
+** "Storm":https://storm.canonical.com/
+** "SQLObject":http://www.sqlobject.org/
+** "peewee":https://github.com/coleifer/peewee
+
+* *Database*
+** "UltraMySQL":https://github.com/esnme/ultramysql - 用C/C++写成，号称超越 Python MySQL 的驱动
+** "MySQLdb":http://sourceforge.net/projects/mysql-python/
+** "redis-py":http://github.com/andymccurdy/redis-py
+
+* *Web Development Useful Library*
+** "WTForms":http://wtforms.simplecodes.com/ - WTForms is a forms validation and rendering library for python web development.
+** "FormEncode":http://www.formencode.org - 同上
+** "tforms":https://github.com/lepture/tforms - 同上
+** "feedparser":http://code.google.com/p/feedparser/ - Parse Atom and RSS feeds in Python
+** "Pectin":https://github.com/tioover/Pectin - A python web application thin glue layer
+
+* *System*
+** "pythonbrew":https://github.com/utahta/pythonbrew - python的多版本管理器
+** "psutil":http://code.google.com/p/psutil/ - 用来查看系统的各种状态
+
+* *Other*
+** "pyenv":https://github.com/yyuu/pyenv - python版本管理器
+** "virtualenv":http://pypi.python.org/pypi/virtualenv - python虚拟环境
+** "odict":http://dev.pocoo.org/hg/sandbox/raw-file/tip/odict.py - 可以保证元素顺序的Dict
+** "Unofficial Windows Binaries for Python Extension Packages":http://www.lfd.uci.edu/~gohlke/pythonlibs/
+** "APScheduler":http://packages.python.org/APScheduler/ - APScheduler is a light but powerful in-process task scheduler that lets you schedule functions (or any other python callables) to be executed at times of your choosing.
+** "Arrow":https://github.com/crsmithdev/arrow - 时间和日期的处理库
+** "simplejson":http://pypi.python.org/pypi/simplejson
+** "imaging(PIL)":http://www.pythonware.com/products/pil/
+** "autopep8":https://github.com/hhatto/autopep8 - 按PEP8的风格，自动排版代码
+** "Python Dialog":http://pythondialog.sourceforge.net/ - 一款对话框库
+** "Python RQ":http://python-rq.org/ - 一款处理队列服务库
+*** "rq-dashboard":https://github.com/nvie/rq-dashboard
+
+h3(#other). Other
+* "bpython":http://bpython-interpreter.org/ - 支持语法高亮的控制台
+* "APNS Python Wrapper":http://code.google.com/p/apns-python-wrapper/ - Python wrapper for Apple Push Notification Service. 
+* "Pocoo":http://www.pocoo.org - The Pocoo Team consists of people from the Python community that are working under one umbrella on various Python libraries and applications.
+* "pyres":https://github.com/binarydud/pyres - 用 Python 实现的 Resque 克隆(后台任务处理)
+* "Sphinx":http://sphinx.pocoo.org/ - API文档生成
+* "Unofficial Windows Binaries for Python Extension Packages":http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+h3(#website). Website
+* "Python Weekly":http://www.pythonweekly.com/
+* "Pycoder's Weekly":http://pycoders.com/
+* "V2EX Python":http://www.v2ex.com/go/python
+* "Codecademy":http://www.codecademy.com - 交互式python学习站
+* "Python For Beginners":http://www.pythonforbeginners.com/
+
+h3(#references). References
+* *Python*
+** "《零基础学Python》by qiwsir":https://github.com/qiwsir/ITArticles/blob/master/BasicPython/index.md
+** "廖雪峰的 Python 教程":http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000
+** "《简明 Python 教程 - a byte of python》":http://junnan.org/ebooks/a_byte_of_python/
+** "《深入python - dive into python》":http://woodpecker.org.cn/diveintopython/toc/index.html
+** "《深入python3 - dive into python3》":http://woodpecker.org.cn/diveintopython3/table-of-contents.html
+** "《The Python Tutorial》":http://docs.python.org/tutorial/index.html
+** "《Learn Python The Hard Way - 笨办法学Python》中文版":http://readthedocs.org/docs/learn-python-the-hard-way-zh_cn-translation/en/latest/index.html / "bitbucket":https://bitbucket.org/gastlygem/lpthw/wiki/Home
+** "用Python做科学计算":http://hyry.dip.jp/pydoc/index.html
+** "Learn Python":http://www.learnpython.org/
+** "Python for beginners":http://www.pythonforbeginners.com/
+** "Python编码风格指南":http://code.google.com/p/zhong-wiki/wiki/PEP8
+** "张沈鹏的编码规范":http://zuroc.42qu.com/10922446
+** "yinian1992的翻译项目":https://github.com/yinian1992
+** "The Hitchhiker’s Guide to Python!":http://docs.python-guide.org/en/latest/
+* *Django*
+** "《The Django Book》":http://djangobook.py3k.cn/2.0/
+** "Django 1.3 Docs":http://junnan.org/ebooks/django_docs_1.3/
+** "Storm Tutorial 中文版":https://storm_orm_tutorial_cn.readthedocs.org/en/latest/
+
+h3(#books). Books
+* Think Python
+* Invent Your Own Computer Games with Python
+* Snake Wrangling for Kids
+* Learn Python the Hard Way, 2nd Edition
+* Natural Language Processing with Python
+* Building Skills in Python
+* Dive into Python
+* Text Processing in Python
+* The Standard Python Library
+* The Definitive Guide to Pylons
+* Making Games with Python & Pygame
+* Python Module of the Week
+* A Byte of Python
+* Think Complexity
+* Programming Computer Vision with Python
+* Python for you and me 0.2
+* Problem Solving with Algorithms and Data Structures using Python
+* The Art and Craft of Programming Python Edition
+* Python Programming

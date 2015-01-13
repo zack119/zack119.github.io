@@ -1,0 +1,20 @@
+---
+layout: default
+title: Design
+---
+
+h1. Design
+
+h3. Photoshop
+* *Plguins*
+* "Cut&Slice me":http://www.cutandslice.me/ - 批量裁切插件
+* "PNGExpress":http://www.pngexpress.com/ - 同上
+* "Enigma64":http://getenigma64.com/ - 同上
+* "Assistor PS":http://iconmoon.com/blog2/assistor-ps/ - 切图工具
+* "SuperPNG":http://www.fnordware.com/superpng/ - 一款PNG压缩插件
+
+h3. Website
+* "Adobe Kuler":https://kuler.adobe.com/ - Adobe 官方推出的调色工具
+
+h3. Tools
+* "Processing":https://www.processing.org/ - 一款开源编程语言，专门为电子艺术和视觉交互设计而创建

@@ -1,0 +1,127 @@
+---
+layout: default
+title: Windows - Software
+---
+
+h1. Windows
+
+<div id="charpter">
+h3. Contents
+* "实用工具":#misc
+* "网络":#network
+* "开发":#develop
+** "版本管理工具":#version
+* "设计":#design
+* "音视频":#media
+* "效率":#productivity
+* "系统":#system
+* "其他":#other
+</div>
+
+h3(#misc). 实用工具
+
+* "QQ五笔":http://wubi.qq.com/ - 从极点中文转过来后一直使用到现在
+* "7zip":http://www.7-zip.org/ - 开源免费的压缩软件
+* "Bandzip":http://www.bandisoft.com/bandizip/ - 基于7zip的压缩软件，加入了实用功能
+* "有道词典":http://cidian.youdao.com/ - 支持全文翻译
+* "Foxit Reader":http://www.foxitsoftware.com/Secure_PDF_Reader/ - 小巧的PDF阅读器
+* "SumatraPDF":http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html - 免费开源的PDF阅读器
+* "Everything":http://www.voidtools.com/ - 本地文件快速搜索工具
+* "AutoHotKey":http://www.autohotkey.com/ - 开源免费非常实用的热键自动化小工具
+* "FolderMenu":http://foldermenu.sourceforge.net/ - 在我的电脑、打开/保存对话框命令提示符中实现文件夹的快速切换
+* "Toucan":http://portableapps.com/apps/utilities/toucan - 一款同步工具
+* "executor":http://www.executor.dk/ - 一款实用的启动工具，类似Mac下的Alfred
+* "Universal Extractor":http://legroom.net/software/uniextract - 比较实用的解包工具，能解大部分的安装包或压缩包
+* "nirsoft":http://www.nirsoft.net/ - Windows 下免费小工具集合
+* "Windows Sysinternals":http://technet.microsoft.com/zh-cn/sysinternals - Windows 官方出品的免费小工具集合包
+
+h3(#network). 网络
+
+* "ClipGrab":http://clipgrab.de/en - 视频下载工具，支持代理
+* "Fiddler":http://www.fiddler2.com/fiddler2/ - 实用的http调试代理工具
+* "Filezilla":http://filezilla-project.org/ - 免费FTP软件（客户端和服务端）
+* "ForceBindIP":http://www.r1ch.net/stuff/forcebindip/ - 可以让指定程序使用指定网络
+* "Google Chrome 离线安装版":https://www.google.com/chrome/eula.html?system=true&standalone=1
+* "Google Chrome 离线安装版64位":https://www.google.com/intl/en/chrome/browser/?platform=win64&standalone=1
+* "KiTTY":http://www.9bis.net/kitty/ - putty的分支，比putty用起来更方便，配置文件保存在文件中
+* "MTPuTTY":http://www.ttyplus.com/multi-tabbed-putty/ - 支持PuTTY和KiTTY的外壳工具，支持多标签
+* "Pietty":http://ntu.csie.org/~piaip/pietty/ - 同上
+* "PortTunnel":http://www.steelbytes.com/?mid=18 - 端口转发工具
+* "Proxifier":http://www.proxifier.com - 让不支持代理服务器的程序使用代理
+* "Proxycap":http://www.proxycap.com/ - 让指定程序走指定网络
+* "Putty":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html - 小巧绿色实用的ssh客户端工具
+* "sokit":https://code.google.com/p/sokit/ - 一个TCP、UDP socket调试辅助工具，基于QT框架
+* "TCPView":http://technet.microsoft.com/en-us/sysinternals/bb897437.aspx - 查看TCP、UDP连接状态，来自于微软的 "Sysinternals":http://technet.microsoft.com/en-us/sysinternals/bb545027 工具套装
+* "Tunnelier":http://www.bitvise.com/tunnelier - 实用的SSH客户端软件，支持端口转发
+* "Wireshark":http://www.wireshark.org/ - 强大的抓包软件
+
+h3(#develop). 开发
+
+* "Editor/IDE":http://wiki.junnan.org/pages/software/editor_ide.html#windows
+* "exe32pack":http://www.steelbytes.com/?mid=26
+
+* *(#version)版本控制*
+** "TortoiseGit":http://code.google.com/p/tortoisegit/ - 实用的Git客户端
+** "Git Extensions":http://code.google.com/p/gitextensions/ - 同上
+** "msysgit":http://code.google.com/p/msysgit/ - 以上两款客户端都依赖于这个Git for Windows
+** "TortoiseSVN":http://tortoisesvn.net/ - 实用的Subversion客户端
+
+* *(#database)数据库*
+** "SQLiteSpy":http://www.yunqa.de/delphi/doku.php/products/sqlitespy/index - 小巧实用的SQLite管理工具
+** "SQLite Administrator":http://sqliteadmin.orbmu2k.de/ - 功能强大的SQLite管理软件
+** "Navicat Premium":http://www.navicat.com - 强大的数据库管理软件
+
+h3(#design). 设计
+
+* "GIMP":http://www.gimp.org - 强大免费跨平台的2D图像处理软件
+* "FastStone Capture":http://www.faststone.org/ - 集截图、拾色、屏幕录像、标尺等于一身的实用设计工具
+* "MarkMan":http://www.getmarkman.com/ - 界面标注工具
+* "Pencil":http://pencil.evolus.vn/ - 跨平台产品原型图设计软件
+* "Balsamiq":http://www.balsamiq.com/ - 同上
+* "FreeMind":http://freemind.sourceforge.net - 免费的思维导图软件
+* "AndreaMosaic":http://www.andreaplanet.com/andreamosaic/ - 蒙太奇马赛克拼图制作软件
+* "GraphicsGale":http://www.humanbalance.net/gale/us/ - 强大的像素图制作软件
+* "FastStone Photo Resizer":http://www.faststone.org/FSResizerDetail.htm - 图片批量缩放、加水印、重命名一应俱全
+* "SuperGIF":http://www.boxtopsoft.com/supergif.html - gif优化工具
+* "PNGGauntlet":http://pnggauntlet.com/ - PNG优化工具
+* "PNGQuant":http://pngquant.org/ - 将24/32-bit的PNG图片转为8-bit而不破坏透明度的小工具
+* "Collagelt Pro":http://www.collageitfree.com/ - 一款这用的图片拼接软件，有 OSX 和 iOS 平台版本
+
+h3(#media). 音视频
+
+* "Foobar2000":http://www.foobar2000.org - 免费简洁实用的音乐播放软件
+** "Columns UI":http://www.foobar2000.org/components/view/foo_ui_columns - 界面布局定制组件
+** "Monkey's Audio Decoder":http://www.foobar2000.org/components/view/foo_input_monkey - APE无损格式解码组件
+* "K-Lite Codec Pack":http://www.codecguide.com/klcp_update.htm - 一款免费全能音视频播放器
+* "Camtasia Studio":http://www.techsmith.com/camtasia.html - 强大的视频录制软件
+* "Bandicam":http://www.bandicam.com/ - 小巧实用的屏幕录制软件
+* "Audition":http://www.adobe.com/products/audition.html - Adobe公司的音频处理软件，前身是CoolEdit
+* "NUENDO":http://www.nuendo.com - 德国STEINBERG公司开发的音乐制作软件
+* "Debut Video Capture Software":http://www.nchsoftware.com/capture/index.html - 摄像头和桌面视频录制
+* "mkvtoolnix":http://www.bunkus.org/videotools/mkvtoolnix/ - MKV 无损切割、合并、封装工具
+
+h3(#productivity). 效率
+* "Evernote":http://evernote.com/ - 免费跨平台网络同步型笔记资料管理软件
+* "Tudumo":http://www.tudumo.com - 免费小巧的GTD软件
+* "ToDoList":http://www.abstractspoon.com - 免费功能强大的GTD软件
+
+h3(#system). 系统
+* "7 Taskbar Tweker":http://rammichael.com/7-taskbar-tweaker - 任务栏定制工具
+* "XueTr":http://www.xuetr.com/ - 内核级系统维护工具
+* "PowerTool":http://code.google.com/p/powertool-google/ - 内核级系统维护工具
+* "SREng":http://www.kztechs.com/sreng/ - 同上，能在win7 64位下正常运行
+* "FolderMonitor":http://www.nodesoft.com/foldermonitor - 文件夹监控工具
+* "Listary":http://www.listary.com/ - Windows 文件浏览增强工具，为Windows 资源管理器增加智能命令、最近文档以及收藏功能
+* "StartIsBack":http://startisback.com/ - Windows8下开始菜单替代工具
+* "Linux Reader":http://www.diskinternals.com/linux-reader/ - linux系统文件读写工具
+* "Ext2explore":http://sourceforge.net/projects/ext2read/files/ - 查看linux文件的小工具
+* "Rufus":http://rufus.akeo.ie/ - Create bootable USB drives the easy way
+* "chocolatey":http://chocolatey.org/ - Windows 下的包管理工具
+* "Cmder":http://bliker.github.io/cmder/ - 命令行模拟器
+
+h3(#other). 其他
+* "KidLogger":http://kidlogger.net/ - 用户行为监控软件，可以记录网页访问、键盘输入、运行程序等
+* "MarkdownPad":http://markdownpad.com/index.html - 免费的Markdown编辑器
+* "Synergy":http://synergy-foss.org/ - 实现一套鼠标控制局域网内的多台电脑，跨平台软件
+* "ResEdit":http://www.resedit.net - 程序资源编辑器
+* "Carnac":http://code52.org/carnac/ - 可以实现在屏幕上显示按键的操作，适合在录制屏幕操作视频时使用

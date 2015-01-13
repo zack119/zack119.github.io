@@ -1,0 +1,95 @@
+---
+layout: default
+title: Server
+---
+
+h1. {{ page.title }}
+
+h3. Web Server
+* "Apache":http://httpd.apache.org/
+* "Nginx":http://nginx.org/cn/ - 一个HTTP和反向代理服务器
+** "HttpConcatModule":http://wiki.nginx.org/HttpConcatModule - 合并静态文件
+* "OpenResty":http://openresty.org/cn - 一个通过扩展 Nginx 实现的强大的 web 应用服务器
+* "Lighttpd":http://www.lighttpd.net/
+* "Tengine":http://tengine.taobao.org/ - Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。
+
+h3. VPS
+* "budgetvm":http://www.budgetvm.com/
+* "buyvm":http://buyvm.net/
+* "Chicago VPS":https://www.chicagovps.net/
+* "DigitalOcean":https://www.digitalocean.com/ - SSD硬盘云主机
+* "Homezz":http://homezz.com
+* "Hostigation":https://hostigation.com/
+* "Linode":http://www.linode.com/
+* "prgmr":http://prgmr.com
+* "Ramhost":http://www.ramhost.us/?page=vps/linux-openvz-atlanta-east
+* "ServInt":http://www.servint.net/
+* "后路哥的VPS":http://houluge.com/taiwan-vps
+* 无限流量
+** "Lowendbox":http://www.lowendbox.com/
+** "OVH":http://www.ovh.com/
+
+h3. 虚拟主机
+* "Elinkhost":http://www.elinkhost.com
+* "HostMonster":http://www.hostmaster.com - 不限流量和空间的虚拟主机
+
+h3. 虚拟化技术
+* "Docker":https://www.docker.com/
+** "Docker技术问答@segmentfault":http://segmentfault.com/docker
+** "Docker从入门到实践":http://yeasy.gitbooks.io/docker_practice/
+
+h3. CDN
+* "CloudFlare":https://www.cloudflare.com/ - 流量免费的CDN，还有防火墙、统计等功能
+
+h3. Hosting Control System
+* "vpsmate":http://www.vpsmate.org/ - 一款国人开发的高质量vps在线管理系统
+* "LuManager":http://www.zijidelu.org/forum.php
+* "Virtualmin":http://www.virtualmin.com - 开源虚拟主机管理系统
+* "WHMCS":http://www.whmcs.com/
+* "commando.io":https://commando.io/ - Manage servers easily online.
+* "Sealion":https://sealion.com/ - 免费的服务器监控工具
+
+h3. 网络代理类
+* "云梯":https://www.yunti.me
+* "VPN Deploy Playbook":https://github.com/ftao/vpn-deploy-playbook - 一个自动部署各种代理服务的工具，包括用户管理等功能。 
+* "softether":http://www.softether.org - VPN搭建解决方案
+* "ocserv":http://www.infradead.org/ocserv/ - 兼容Cisco Anyconnect的开源服务端
+
+h3. Data Traffic
+* "deployd":http://deployd.com - a toolkit for building realtime APIs
+
+h3. Deploy Tools
+* "Puppets":https://puppetlabs.com/
+* "Boxen":https://github.com/boxen/our-boxen - GitHub内部自用的Mac自动化部署工具
+* "SoloWizard":http://www.solowizard.com/ - 另一款自动化部署工具
+* "Cobbler":http://cobbler.github.com/
+* "chef":http://www.opscode.com/chef/
+* "Ansible":http://ansible.cc/
+** "presentation":https://speakerdeck.com/u/mpdehaan/p/ansible
+** "github":https://github.com/ansible/ansible/
+** "docs":http://ansible.cc/docs/
+** "playbooks":https://github.com/ansible/ansible-resources
+** "resful UI on Flask":https://github.com/ansible/ansible-commander
+** "for Cobbler, EC2, Nova":https://github.com/ansible/ansible-plugins
+** "vagrant plugin":https://github.com/dsander/vagrant-ansible
+* "SaltStack":http://saltstack.org/
+* "Naxsi":https://code.google.com/p/naxsi/ - 基于nginx的web app 防火墙，防止XSS，SQL注入等攻击
+* "chronos":http://airbnb.github.io/chronos/
+
+h3. Monitoring
+* "Scout":https://scoutapp.com/ - 一款服务器监控软件
+* "DataDog":https://www.datadoghq.com/ - 服务器监控服务
+* "Sentry":https://github.com/getsentry/sentry - 一款实时错误日志捕获平台，支持大多语言环境
+
+h3. Test Tools
+* "gatling":http://gatling.io/ - 压力测试工具
+
+h3. References
+* "SysAdminCasts":http://sysadmincasts.com/ - 面向系统管理员的简短教学视频
+* "Initial Server Setup with Ubuntu 12.04":https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04
+* "How To Set Up SSH Keys":https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
+* "用 Supervisor 运行 Shadowsocks":https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks
+* "nginx使用时的一些注意事项":http://wiki.nginx.org/Pitfalls
+
+h3. Software
+* "Plex Media Server":https://plex.tv/downloads - 跨平台的 DLNA 媒体服务器，还可安装在 NAS 上

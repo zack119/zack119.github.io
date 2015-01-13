@@ -1,0 +1,28 @@
+---
+layout: default
+title: Hardware
+---
+
+<div id="charpter">
+h3. Contents
+* "Mac周边":#mac
+</div>
+
+h1(#mac). Mac周边
+
+h3. 键盘
+* "Laptop Pro":http://matias.ca/laptoppro/mac/
+* Filco Minila Air
+* "CODE Keyboard":http://codekeyboards.com/ - Stack Overflow创始人Jeff Atwood设计的机械键盘
+* **厂商**
+** "MaxKeyboard":http://www.maxkeyboard.com/
+** "Matias":http://matias.ca/
+** "wasdkeyboards":http://www.wasdkeyboards.com/
+** "codekeyboards":http://codekeyboards.com/
+
+h3. 底座
+* "mStand":http://www.raindesigninc.com/mstand_features.html
+* "HiRise":http://twelvesouth.com/products/hirise_macbook/
+
+h3. 相关网站
+* "MacDesks":http://macdesks.com/ - 展示各种 Mac 桌面照片

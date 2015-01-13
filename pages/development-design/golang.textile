@@ -1,0 +1,81 @@
+---
+layout: default
+title: GoLang
+---
+
+h1. Go Lang
+
+h3. Website
+* "Official Website":http://golang.org/
+
+h3. Packages
+* "Libraries Written in Go":http://go-lang.cat-v.org/pure-go-libs
+* "awesome-go":https://github.com/avelino/awesome-go - 另一个 Go 相关索引
+* "第三方库索引":https://code.google.com/p/go-wiki/wiki/Projects
+* "gom":https://github.com/mattn/gom - 包管理
+
+h3. Framework
+* "beego":http://beego.me/ - 除了基础的 MVC 结构外，还带有Cache，ORM，Session等多个库的支持
+* "goji":https://goji.io/ - A web microframework for Golang
+* "gonet":https://github.com/xtaci/gonet - 一款游戏服务器端框架
+* "Gorilla":http://www.gorillatoolkit.org/ - a web toolkit
+* "GoWeb":http://code.google.com/p/goweb/ - Lightweight RESTful web framework for Go
+* "Macaron":https://github.com/Unknwon/macaron - Martini-style, but faster and cheaper
+* "Martini":http://martini.codegangsta.io/ - Classy web development in Go. Surprisingly simple. Incredibly 
+* "revel":http://robfig.github.com/revel/ - 借鉴的 java 和 scala 语言的 play 框架，推出较早
+* "Web.go":http://webgo.io/ - The easiest way to create web applications with Go
+
+h3. Tools
+* "goimports":https://github.com/bradfitz/goimports - Tool to fix (add, remove) your Go imports automatically.
+* "Godef":https://github.com/buaazp/Godef - 如果使用了GoSublime，可以用此插件实现跳转到定义
+
+h3. Web Apps
+* "Tattoo":https://github.com/shellex/tattoo - A simple blog system
+* "gor":https://github.com/wendal/gor - Golang编写的静态博客引擎
+* "wetalk":https://github.com/beego/wetalk - An open source project for Gopher community.
+
+h3. Web Dev
+* "pongo2":http://www.florian-schlachter.de/post/pongo2/ - 一款类 Django 的模版引擎
+
+h3. ORM
+* "beedb":https://github.com/astaxie/beedb
+* "gorm":https://github.com/jinzhu/gorm
+* "gorp":https://github.com/coopernurse/gorp
+* "hood":https://github.com/eaigner/hood
+* "qbs":https://github.com/coocood/qbs
+* "upper/db":https://upper.io/db
+* "XORM":http://xorm.io/
+
+h3. WebSite
+* "Golang中国":http://www.golangtc.com/
+* "gocasts":https://gocasts.io/ - Go 视频教程
+* "yougam":http://www.yougam.com/
+* "Go友团":http://golanghome.com/
+
+h3. References
+* "Go入门指南":https://github.com/Unknwon/the-way-to-go_ZH_CN
+* "Go编程基础(视频)":https://github.com/Unknwon/go-fundamental-programming
+* "Go语言程序设计":http://www.amazon.cn/dp/B00DWCL8MM / "源码":http://www.qtrac.eu/gobook.html
+* "Go Web 编程":https://github.com/astaxie/build-web-application-with-golang
+* "Introducing Go by Example":http://mmcgrana.github.com/2012/10/introducing-go-by-example.html
+* "Go实战开发":https://github.com/astaxie/Go-in-Action
+* "Go语言半小时速成":http://www.aqee.net/go/a-tour-of-go
+* "Wonderfo的资料收集":https://github.com/wonderfo/wonderfogo/wiki
+* "GoByExample":https://gobyexample.com/
+* "Go指南":http://tour.golanger.com/
+* "qyuhen的学习笔记":https://github.com/qyuhen/book
+* "A golang ebook intro how to build a web with golang":https://github.com/astaxie/build-web-application-with-golang/blob/master/preface.md
+* "《Go语言标准库》The Golang Standard Library by Example":https://github.com/polaris1119/The-Golang-Standard-Library-by-Example
+
+h3. Video Turorial
+* "Go编程基础":https://github.com/Unknwon/go-fundamental-programming
+* "Go名库讲解":https://github.com/Unknwon/go-rock-libraries-showcases
+
+h3. GoSublime 常用快捷键
+* Ctrl + 9 / Ctrl + b : 打开命令行
+* Ctrl + dot, Ctrl + t : 打开测试面板
+* Ctrl + dot, Ctrl + dot : 调出 GoSublime的所有功能
+* Ctrl + dot, Ctrl + p : 调出所有已导入或未导入的 package，并可以删除已导入的 package
+* Ctrl + dot, Ctrl + h : 查看当前内容定义和说明
+* Ctrl + dot, Ctrl + d : 查看当前代码大纲
+* Ctrl + dot, Ctrl + e : 语法检查

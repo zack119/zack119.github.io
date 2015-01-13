@@ -1,0 +1,78 @@
+---
+layout: default
+title: Linux
+---
+
+h1. {{ page.title }}
+
+h3. 发行版
+* "Arch Linux":http://archlinux.org
+* "CentOS":http://centos.org
+* "CoreOS":https://coreos.com/
+* "Debian":http://www.debian.org
+* "Fedora":http://fedoraproject.org
+* "Gentoo Linux":http://www.gentoo.org
+* "openSUSE":http://www.opensuse.org
+* "slackware":http://www.slackware.com/
+* "Ubuntu":http://www.ubuntu.com
+
+h3. 桌面环境
+* "Gnome":http://www.gnome.org/
+* "KDE":http://www.kde.org/
+* "Xface":http://www.xfce.org/
+* "LXDE":http://lxde.org/
+
+h3. 窗口管理
+* "musca":http://aerosuidae.net/musca.html
+* "awesome":http://awesome.naquadah.org/
+* "tmux":http://tmux.sourceforge.net/
+
+h3(#misc). 常用
+* "NeverNote":http://nevernote.sourceforge.net/ - linux下的evernote客户端
+* "Audacity":http://audacity.sourceforge.net - 音频编辑软件
+* "Double Commander":http://doublecmd.sourceforge.net/ - 跨平台的文件管理器
+
+h3(#system). 系统
+* "ubuntu-tweak":http://ubuntu-tweak.com/
+* "MyUnity":https://launchpad.net/myunity - 简易的Unity Tweak 工具
+* "Terminator":http://www.tenshu.net/p/terminator.html - 可以分割多窗口的终端程序
+* "Marlin":https://launchpad.net/marlin - 轻量级的文件浏览器，有点像Mac OS下的Finder
+
+h3(#network). 网络
+* "multiget":http://sourceforge.net/projects/multiget/ - 简洁的多线程下载工具
+* "gStm":http://sourceforge.net/projects/gstm - ssh端口转发工具
+* "lrzsz":https://ohse.de/uwe/software/lrzsz.html - 一款网络工具包，支持 X/Y/ZMODEM 文件传输协议，可使用 Xshell 实现文件传输
+
+h3(#entertainment). 娱乐
+* "RhythmCat":http://code.google.com/p/rhythmcat/ - 一款中文不乱码、支持歌词显示、支持卡啦OK模式、支持编辑歌词、支持音频格式转换的音乐播放器。
+* "rhythmbox":http://projects.gnome.org/rhythmbox/ - Rhythmbox is an integrated music management application, originally inspired by Apple's iTunes.
+* "Audacious":http://audacious-media-player.org/ - Audacious is an advanced audio player. It is free
+* "DeaDBeeF":http://deadbeef.sourceforge.net/ - Ultimate Music Player For GNU/Linux
+
+h3(#develop). 开发
+* "smartgit":http://www.syntevo.com/smartgit/ - 图形化git客户端
+* "bluefish":http://bluefish.openoffice.nl - 强大的代码编辑器
+* "Geany":http://www.geany.org/ - 同样强大的代码编辑器
+* "Meld":http://meldmerge.org/ - 对比工具
+
+h3(#server). 服务器
+* "LNMP":http://lnmp.org/ - centos/redhat、debian/ubuntu下(Nginx、MySQL、PHP、phpMyAdmin)生产环境部署脚本
+* "Submin":http://supermind.nl/submin/index.html - 一款 SVN Web 管理工具
+* "Supervisor":http://supervisord.org/ - 用于 Unix 系统的进程监控工具
+
+h3(#theme). 主题
+* "Polar Night":https://github.com/baurigae/polar-night
+
+h3(#other). 其他
+* "virtualbox":http://download.virtualbox.org/virtualbox - 虚拟机
+* nautilus-open-terminal: 在右键菜单中加入在当前路径打开终端菜单项，使用apt-get安装即可
+
+h3(#references). 参考
+* "Linux手记":https://github.com/bindiry/notes/blob/master/linux_note.md
+* "美丽新世界：linux 下的惬意生活":https://github.com/yangyangwithgnu/the_new_world_linux
+
+h3(#website). 相关网站
+* "commandlinefu":http://www.commandlinefu.com - linux命令大全
+* "ubuntusoft":http://www.ubuntusoft.com/ - Ubuntu资讯站
+* "LinuxCast":http://linuxcast.net/ - 一个linux学习平台
+* "explainshell":http://explainshell.com/ - 解析显示shell 命令参数的帮助信息

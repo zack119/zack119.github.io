@@ -1,0 +1,115 @@
+---
+layout: default
+title: PHP
+---
+
+h1. PHP
+
+h3. Utility Class
+* "PHP Error":http://phperror.net/ - 错误报告工具
+
+h3. Frameworks
+* "CakePHP":http://cakephp.org/
+* "CodeIgniter":http://codeigniter.com/
+* "Flourish":http://flourishlib.com/ - 面向对象的没有严格遵循MVC模式的php模块化开发框架
+* "Laravel":http://laravel.com/ - A Clean And Classy PHP Framework, 据说是最像 Rails 的一款框架
+** "Laravel 4.1 Quick Start 中文":https://github.com/5-say/laravel-4.1-quick-start-cn
+** "Laravel学习资料":https://github.com/huanghua581/notes/tree/master/PHP/laravel
+** "Laravel中文站":http://www.golaravel.com/
+** "Laravel视频教程站":https://laracasts.com/
+** "Laravel4 Bootstrap Starter Site":https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site
+* "MicroMVC":http://micromvc.com/
+* "nanoserv":http://nanoserv.si.kz/ - 同上
+* "Pagon":https://github.com/hfcorriez/pagon - Restful, Smart and Easy PHP framework，I18N中间件，DI支持，自动路由，Jade支持，Cookie Store，Yaml和Ini支持
+* "QeePHP":http://qeephp.com/
+* "Slim":http://www.slimframework.com/ - a PHP 5 Micro Framework
+* "Symfony":http://symfony.com/ - 一款不错的框架，性能出众，像Django一样带通用后台管理功能
+* "Swoole":http://www.swoole.com/ - 高性能网络通信框架，提供了PHP语言的异步多线程服务器等
+* "ThinkPHP":http://thinkphp.cn/
+* "Typecho Framework":https://github.com/typecho/framework
+* "Phalcon":http://phalconphp.com/ - 用 C 实现的 PHP 扩展框架
+* "Yaf":http://www.laruence.com/yaf/ - 国人开发的PHP扩展形式的框架，速度快，提供了Bootstrap, 路由, 分发, 视图, 插件, 是个一个全功能的 PHP 框架。
+* "Yii":http://www.yiiframework.com/
+** "中文站":http://www.yiichina.org/
+* "Zend":http://framework.zend.com/
+* "Workerman":http://www.workerman.net/ - 一款高性能的 Socket 服务器框架
+* "PHPass":http://www.openwall.com/phpass/ - 一款 PHP 密码加盐框架
+
+h3. 开放平台
+* **微信相关**
+** "dodgepudding-wechat-php-sdk":https://github.com/dodgepudding/wechat-php-sdk - 微信公众平台php开发包,细化各项接口操作,支持链式调用
+** "netputer-wechat-php-sdk":http://github.com/netputer/wechat-php-sdk - 简单的微信公众平台 PHP SDK ，通过调用相应的接口，使你可以轻松地开发微信 App
+** "ligboy-Wechat-php":http://github.com/ligboy/Wechat-php - 本微信sdk实现了被动响应的官方api已经主动发送消息给订阅用户，主动批量发送消息给订阅用户
+** "微擎":http://www.we7.cc/ - 微信公众平台自助开源引擎
+** "微笑":http://www.sylai.com/
+** "weiphp":http://www.weiphp.cn/
+
+h3. Template Engine
+* "Twig":http://twig.sensiolabs.org/
+* "Smarty":http://www.smarty.net/
+
+h3. CMS
+* "WordPress":http://wordpress.org/
+* "TextPattern":http://textpattern.com/
+* "Joomla":http://www.joomla.org/
+* "dedeCMS(织梦)":http://www.dedecms.com
+* "GetSimple":http://get-simple.info/
+* "ECShop":http://www.ecshop.com/ - 开源中文网店系统
+* "Shopilex":http://www.shopilex.com/ - 同上
+* "MiniCMS":https://github.com/bg5sbk/MiniCMS/ - 达达的一款小巧CMS，支持MarkDown，数据以文件存储
+* "Anchor":http://anchorcms.com/ - 一款极简的CMS系统，也可用做博客系统，支持Markdown
+* "Easy-Admin":https://github.com/happen-zhang/easy-admin - 通用后台信息管理系统
+* "OneThink":http://www.onethink.cn/
+
+h3. Forum System
+* "bbPress":http://bbpress.org/
+* "Discuz":http://www.discuz.net/
+* "esoTalk":http://esotalk.org/ / "中文版":http://esotalk.net/ - perfect balance between simplicity, power, speed, and scalability.
+* "Fluxbb":http://fluxbb.org/
+* "IP.Board":http://www.invisionpower.com/products/board/
+* "phpbb":http://www.phpbb.com/
+* "PHPwind":http://www.phpwind.net
+* "Roar":http://roar.im/ - 一款极简的论坛系统 "github":https://github.com/codin/roar
+* "Simple Machines":http://www.simplemachines.org/
+* "Vanilla":http://vanillaforums.org/
+* "Xiuno":http://www.xiuno.com/ - 国人开发的高负载安全论坛系统
+
+h3. Shopping Cart System
+* "OpenCart":http://www.opencart.com/
+* "Magento":http://magento.com/ - 一套专业的电子商务系统
+** "Magento 中文社区":http://www.magentochina.org/
+** "Magento 模版":http://themeforest.net/category/ecommerce/magento
+
+h3. Other
+* "Phalanger":http://www.php-compiler.net - 用PHP语言写.net web程序
+* "PHP-Parser":https://github.com/nikic/PHP-Parser - PHP解析器，可以将 PHP 源代码转换为用 PHP 数据结构描述的语法树。
+* "禅道":http://www.zentao.net/ - 一款国产的开源项目管理工具
+* "phpVirtualBox":http://code.google.com/p/phpvirtualbox/ - 用php实现的VirtualBox前端，可以在web端控制远端VirtualBox
+* "php markdown":https://github.com/michelf/php-markdown
+* "Doctrine2":http://www.doctrine-project.org/ - 功能全面的ORM
+* "RedBeanPHP":http://www.redbeanphp.com/ - 轻巧的ORM
+* "Imagine":http://imagine.readthedocs.org/en/latest/ - 图像处理
+* "Twig":http://twig.sensiolabs.org/ - 模板引擎
+* "Monolog":https://github.com/Seldaek/monolog - Log处理
+* "Gearman":http://gearman.org/ - 一款任务队列框架
+* "php-resque":https://github.com/chrisboulton/php-resque - 任务队列
+* "Aktive Merchant for PHP":https://github.com/akDeveloper/Aktive-Merchant - 支付网关
+* "DAUX.IO":http://daux.io/ - 一款文档生成工具
+
+h3. Tools
+* "phptemplate":https://github.com/lutaf/phptemplate - 小巧的php模版生成器
+* "whoops":http://filp.github.io/whoops/ - 一款不错的调试工具
+
+h3. References
+* "General Style and Syntax":http://codeigniter.com/user_guide/general/styleguide.html
+* "PHP之道":http://wulijun.github.com/php-the-right-way/
+* "PHP Best Practices":https://phpbestpractices.org/
+
+h3. Software
+* "coreamp":https://code.google.com/p/coreamp/ - 支持Apache和Nginx的PHP环境套件
+* "PHPNow":http://phpnow.org/ - 绿色免费的 Apache + PHP + MySQL 环境套件包
+* "APMServ":http://apmserv.s135.com/ - 一键快速搭建Apache＋PHP＋MySQL＋Nginx＋Memcached＋ASP平台
+* "WNPM":http://code.google.com/p/wnpm/ - 一款基于Windows下的Nginx + PHP + MySQL + Zend绿色套件
+
+h3. Website
+* "phpfresher":http://www.phpfresher.com/

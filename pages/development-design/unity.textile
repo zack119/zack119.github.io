@@ -1,0 +1,52 @@
+---
+layout: default
+title: Unity3D
+---
+
+h1. Unity3D
+
+h3. Website
+* "Official Website":http://unity3d.com/
+
+h3. Assets
+* "2D Toolkit":http://www.unikronsoftware.com/2dtoolkit/ - 一款很强大的2D游戏插件
+* "EasyTouch":http://www.blitz3dfr.com/store/ - 为基于触摸屏、鼠标和摇杆的游戏开发提供便利
+* "FX Maker":http://u3d.as/content/igsoft/fx-maker - 一款制作特效的工具，它专为移动操作系统做了优化。FX Maker包括300种Prefab特效，300种纹理结构、100种网格、100种曲线效果
+* "iTween":http://itween.pixelplacement.com/ - iTween是一个动画库,用它可以轻松实现各种动画,晃动,旋转,移动,褪色,上色,控制音频等等
+* "hotween":http://hotween.demigiant.com/ - a fast, type-safe object-oriented tween engine
+* "dotween":http://dotween.demigiant.com/ - the evolution of HOTween
+* "NGUI":http://www.tasharen.com/ - NGUI是严格遵循KISS原则并用C#编写的(适用于专业版和免费版)插件，提供强大的UI系统和事件通知框架
+* "Sprite Manager 2":http://www.anbsoft.com/middleware/sm2/ - 高级 2D 动画插件
+* "Tile Based Map and Nav":http://u3d.as/content/pl-young/tile-based-map-and-nav/2uF - 策略与棋盘类游戏插件
+* "UnIDE":http://unityide.com/ - 第三方软件开发商专为Unity制作的一套IDE
+* "uniSWF":http://uniswf.com/ - 可以在Unity3D里面直接播放SWF文件，可以使用flash制作unity3d的界面，2D程序等等
+* "Futile":https://github.com/MattRix/Futile - 开源 2D 框架，类似 Cocos2d-x
+* "PoolManager":http://poolmanager.path-o-logical.com/ - 对象池管理
+* "Rain":http://rivaltheory.com/rain/ - 行为树插件[wiki](http://rivaltheory.com/wiki/doku.php?id=gettingstarted:start)
+* "FCC - Free Character Controller":http://ruhrnuklear.de/fcc/ 一套免费的人物和镜头控制类，类似 WOW 
+
+h3. RPG Kit
+* "ZERANO RPG KIT":http://zerano-unity3d.com/RPGKit/rpg-kit-2-0/
+* "ORK Okashi RPG Kit":http://rpg-kit.com/
+* "Top-Down RPG Starter Kit":https://www.assetstore.unity3d.com/en/#!/content/15552
+* "Atavism":http://www.atavismonline.com/ - MMORPG 解决方案
+
+h3. Tools
+* "disunity":https://github.com/ata4/disunity/ - An experimental toolset for Unity asset and asset bundle files.
+* "ExtractUnityPackage":http://www.convertzone.com/extract_unitypackage/ - 不用安装 Unity 即可解开 UnityPackage 包的工具
+
+h3. Website
+* "Unity圣典":http://game.ceeger.com/
+* "3DAssetShop":http://mr-necturus.com/shop/
+* "ZeranoShop":http://zerano-unity3d.com/
+
+h3. Video Lessons
+* "Quill18's Unity 3d & Blender Game Programming Tutorials":http://quill18.com/unity_tutorials/
+
+h3. References
+* "官方中文手册":http://edu.china.unity3d.com/learning_document
+* "Unity官方手册翻译":http://game.ceeger.com/Manual/
+* "MonoBehaviour的执行流程图":/assets/2014/10/monobehaviour_flowchart.svg
+
+h3. Games
+* "Max & the Magic Marker":http://maxandthemagicmarker.com/

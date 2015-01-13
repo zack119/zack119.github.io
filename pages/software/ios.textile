@@ -1,0 +1,122 @@
+---
+layout: default
+title: iOS - Software
+---
+h1. iOS
+
+h3. 常用
+* 微信
+* QQ
+* 豆瓣广播
+* Reeder
+* 网易应用中心
+* 网易新闻
+* 知乎
+* 微博
+* QQ空间
+* Chrome
+* Tweetbot
+* Camera Roll - 一款可以将手机中的照片或视频通过无线传输到电脑上的应用
+* Hangouts - Google官方的实时通信应用
+* Vine - 一款可以看短视频的社交应用
+* 掌阅听书 - 看书、听书
+
+h3. 儿童游戏厂商
+* Sago Sago
+* Toca Boca AB
+* TribePlay
+
+h3. 游戏
+* Clash of Clans
+* Hay Day
+* Fruit Ninja
+* Jetpack
+* Age of Zombies
+* Monster Dash
+* RuneRaiders
+* Temple Run
+* Rayman Run
+* Monsters
+* Cut the Rope
+
+h3. 开发设计相关
+* Textastic Code Editor - Textastic is a fast and versatile text editor with powerful support for syntax highlighting.
+* Prompt - 命令行工具
+* PS View - 可以通过手机直接查看 Photoshop 中的设计图
+* Linode - Linode 官方应用
+
+h3. 效率相关
+* Trello
+* Gmail
+* Boxer - 前 Google Reader 主管推出的一款邮件应用
+
+h3. 导航
+* 高德导航
+* 青岛公交查询
+* 8684公交
+* 百度地图
+
+h3. 阅读笔记
+* iBooks
+* 阅FM
+* Pocket
+* 多看阅读
+* 网易云阅读
+* 漫画控
+* Evernote
+
+h3. 生活
+* 淘宝
+* 支付宝钱包
+* 联通手机营业厅
+* 工行手机银行
+* 招商银行
+* 财付通
+* 果库
+* 随手记
+
+h3. 学习
+* 泸江英语
+* 泸江网校
+* 新概念背单词
+* 泸江听力酷
+* 每日一句
+* 开心词场
+* 朗易复读机
+* 每日英语听力
+* 朗易思听
+* 有道词典
+* 别忘单词
+
+h3. 音乐和电台
+* 豆瓣FM
+* Podcast
+* 虾米音乐
+* 唱吧
+* CarTunes - 一款不错的汽车播放器应用
+* 音乐人攻略
+
+h3. 摄影摄像
+* 相机360
+* Snapseed
+* Instagram
+* 魅拍
+* InstaFishEye - 一款鱼眼摄像应用
+* Luminance
+* ProCollage - 一款拼图应用
+
+h3. 视频电影
+* Vidon Player
+* Air Video
+* 优酷
+* 豆瓣电影
+* PPTV
+
+h3. 其他
+* iMadeFace - 一款自定义头像应用
+* Recordium - 一款录音应用
+* Runtastic Heart Rate PRO - 心跳和脉搏监测仪软件专业版
+
+h3. for iPad
+* Paper by FiftyThree
+* Duet Display - 将iPad设置为第二屏

@@ -1,0 +1,243 @@
+---
+layout: default
+title: Web Front-end
+---
+
+h1. {{ page.title }}
+
+h3. CSS
+
+* *Framework*
+** "Alice":http://aliceui.com - 支付宝前端样式解决方案
+** "Almost Flat UI":https://github.com/websymphony/almost-flat-ui - 同上也是一款扁平UI工具包
+** "BootStrap":http://twitter.github.com/bootstrap/ - Twitter推出的前端开发工具包
+** "F.I.S":http://fis.baidu.com/ - 百度前端团队出品的前端集成解决方案
+** "Fight":http://twitter.github.com/flight/ - Twitter推出的新web开发框架
+** "FlatUI":http://designmodo.github.com/Flat-UI/ - 基于BootStrap的UI工具包
+** "Foundation":http://foundation.zurb.com/ - 前端框架新秀，响应式网页框架
+** "Ink":https://github.com/sapo/Ink - 一套和BattStrap一样好用的UI工具包
+** "kube":http://imperavi.com/kube/ - 一款黑白简约的UI工具包
+** "Material UI":http://material-ui.com/
+** "NEC":http://nec.netease.com/ - 网易推出的CSS框架
+** "Ninja":http://ninjaui.com - 前端用户界面工具包
+** "Puerh":https://github.com/baixing/Puerh - 百姓网开源的一套基于bootstrap的前端开发工具包
+** "Pure":http://purecss.io/ - 一款小巧的CSS模块实现
+** "semantic-ui":http://semantic-ui.com/ - 语法比 BootStrap 更简洁的扁平风格工具包
+** "Simple Grid":http://thisisdallas.github.com/Simple-Grid/ - 轻量级的响应式 CSS 网格系统
+** "Polymer":https://www.polymer-project.org/ - Google 出品的 Web UI 框架
+
+* *Preprocessor*
+** "Animate.css":http://daneden.me/animate/ - 整合了一些简单动画效果的css，支持自定制
+** "Compass":http://compass-style.org/ - 基于Sass的框架，提供了更强大的功能，如：CSS3支持、浏览器差异修复、Reset等
+** "DtCSS":http://code.google.com/p/dtcss/ - CSS预处理器
+** "Less":http://lesscss.org/ - 同样基于node.js的CSS简化解释语言，但没有Stylus简化
+** "Sass":http://sass-lang.com - 基于ruby的CSS简化解释语言
+** "Stylus":http://learnboost.github.com/stylus/ - 基于node.js的CSS简化解释语言
+** "Turbine":http://turbine.peterkroener.de/index.php - 由PHP驱动的一款CSS预处理器
+*** "Crunch":http://crunchapp.net/ - 一款针对Less的编辑器
+*** "SimpLESS":http://wearekiss.com/simpless - 针对LESS的编译器
+
+* *Tools*
+** "CSS Compressor":http://www.cssdrive.com/index.php/main/csscompressor/ - 压缩CSS代码
+** "CSS Lint":http://csslint.net/ - 检测与评估CSS代码
+** "jsFiddle":http://jsfiddle.net/ - 在线调试前段开发工具
+** "ProCSSor":http://procssor.com/ - 优化CSS代码，使其轻量且易读
+** "SpriterMapper":http://yostudios.github.com/Spritemapper/ - 基于python的一款多图片合并切片生成css工具
+** "StyleBot":http://stylebot.me/ - Chrome下的可视化CSS编辑器，功能强大
+** "Styleneat":http://www.styleneat.com/ - 一款非常不错的CSS格式化工具，可以按层级缩进等
+** "Yabo":https://github.com/damao/Yabo - 大猫写的前端压缩工具
+** "Procssor":http://procssor.com/process - CSS代码整理工具
+
+* *Other*
+** "Github官方图标字体":http://octicons.github.com/
+** "Elusive Icons":http://aristath.github.com/elusive-iconfont/ - 适量字体图标
+** "entypo":http://www.entypo.com/
+** "Font awsome":http://fortawesome.github.com/Font-Awesome/
+** "Fonts.css":https://github.com/zenozeng/fonts.css - 跨平台中文字体解决方案
+** "font屌":http://lexrus.github.io/fontdiao/ - font awsome 的中文分支，由lextang发布，扩展了一些新的图标
+** "RetinaJS":http://retinajs.com/ - Retina graphics for your website
+* "ICONFONT":http://www.iconfont.cn/ - 阿里巴巴出品的矢量图库
+
+* *Website*
+** "CSSDB":http://cssdb.co/ - CSS Libraries
+** "Webkit CSS Library":http://ued.ctrip.com/blog/wp-content/webkitcss/
+
+h3. Javascript
+
+* *Framework*
+** "alloyUI":http://alloyui.com/ - 基于YUI3的前端框架
+** "APEJS":http://lmatteis.github.com/apejs/ - A tiny JavaScript web framework targeted for Google App Engine
+** "Arale":http://aralejs.org/ - 支付宝基于 SeaJS 的前端解决方案
+** "Backbone.js":http://documentcloud.github.com/backbone/ - 一个前端MVC框架
+** "Ember.js":http://emberjs.com/ - 一款空前高效的前端框架
+** "Kissy":http://kissyui.com/ - 由淘宝前端团队发布的一款开源JS类库
+** "NEJ":http://nej.netease.com/ - 简洁，美观，真正的跨平台web前端开发框架，网易出品
+** "SeaJS":http://seajs.com/ - SeaJS 是一个遵循CommonJS规范的模块加载框架，可用来轻松加载任意JavaScript模块
+** "SproutCore":http://www.sproutcore.com/ - iCloud 和 MobileMe 的JS Framework
+*** "Ember.js中文站":http://emberjs.torriacg.org/
+
+* *Library*
+** "artTemplate":https://github.com/aui/artTemplate - 一款高性能的模版引擎，腾讯前端团队出品
+** "CasperJS":http://casperjs.org/ - 一款Web应用测试工具，可以实现点击，抓取网页等等功能
+** "DataTables":http://datatables.net/ - 优雅的前端表格库
+** "easy.js":http://easyjs.org/ - 一套简洁的js库，包括DOM操作和动画等
+** "gsap js":http://www.greensock.com/gsap-js/ - 强大的缓动特效库
+** "Handlebars":http://handlebarsjs.com/ - 一款前端模版引擎
+** "Jscex":http://jscex.info/ - monadic扩展
+** "Medium.js":http://jakiestfu.github.io/Medium.js/docs/ - 一款HTML5页面内容编辑器
+** "MetroJS":http://www.drewgreenwell.com/projects/metrojs - 实现Metro效果
+** "MinUI":http://www.miniui.com/ - 一套国产UI库，包含强大的数据显示控件
+** "Moment.js":http://momentjs.com/ - 一款小巧的时间库
+** "Proton":http://www.a-jie.cn/proton/ - HTML5 粒子引擎
+** "qatrix":http://qatrix.com/ - 同上，一款个人开发的模版引擎
+** "Smoke":http://ssssnakes.com/smoke/ - 小巧实用的javascript通知库
+** "sparky":http://prag.ma/code/sparky/ / "github":https://github.com/shawnbot/sparky - 用来制作走势图的JS库
+** "textillate.js":http://jschr.github.io/textillate/ - 一款很棒的文字特效库
+** "tinycon":https://github.com/tommoor/tinycon - 通过chrome的favicon来动态显示数字信息，比如未读消息
+** "腾讯Web开源库":http://tencentopen.github.io/
+** "Javascript":https://github.com/jakesgordon/javascript-state-machine - 基于Javascript的有限状态机实现("阮一峰的介绍文章":http://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html)
+** "tracking.js":http://trackingjs.com/ - 一款面部识别库
+
+* *Tools*
+** "closure":https://developers.google.com/closure/ - Google推出的一套javascript开发工具
+
+* *JQuery <span class="misc">("website":http://jquery.com)</span>*
+** "Accordion":http://bassistance.de/jquery-plugins/jquery-plugin-accordion/ - 折叠菜单插件
+** "artDialog":http://www.planeart.cn/demo/artDialog/ - 对话框插件
+** "Autosize":http://www.jacklmoore.com/autosize/ - 可以让输入框根据文字的高度自动调节高度
+** "Chosen":http://harvesthq.github.com/chosen/ - 下拉框多选插件
+** "Highlight":http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html - 高亮显示插件
+** "idTabs":http://www.sunsean.com/idTabs/ - Tab插件
+** "Jauery-BBQ":https://github.com/cowboy/jquery-bbq - 一款可以记录前进后退按钮的插件
+** "jBreadcrumb":http://comparenetworks.com/developers/jqueryplugins/jbreadcrumb.html - 面包屑插件
+** "jPaginate":http://tympanus.net/jPaginate/ - 分页插件
+** "jquery-menu-aim":https://github.com/kamens/jQuery-menu-aim - 二级菜单插件
+** "jScrollPane":http://www.kelvinluck.com/assets/jquery/jScrollPane/jScrollPane.html - 滚动条自定义插件
+** "liffect":http://ademilter.com/lab/liffect/ - 图片列表的缓动动画
+** "Lightbox":http://leandrovieira.com/projects/jquery/lightbox/
+** "mCustomScrollbar":http://manos.malihu.gr/jquery-custom-content-scroller/ - 同上
+** "payment":https://github.com/stripe/jquery.payment - 支付表单构建插件
+** "PikaChoose":http://www.pikachoose.com/ - 轮播式图片展示
+** "Raty":http://www.wbotelhos.com/raty/ - 评分插件
+** "tablesorter":http://tablesorter.com - 表格排序插件
+** "jplist":http://jplist.com/ - 实现灵活排序、过滤和分页的插件
+** "three.js":https://github.com/mrdoob/three.js/ - 粒子特效
+** "Tokeninput":http://loopj.com/jquery-tokeninput/ - 文本框即时搜索列表
+** "tooltip":http://tutorialzine.com/2010/07/colortips-jquery-tooltip-plugin/ - tooltip插件
+** "Topup":http://gettopup.com - 图片显示插件
+** "Treeview":http://bassistance.de/jquery-plugins/jquery-plugin-treeview/ - 树形列表插件
+** "turn.js":http://www.turnjs.com - 翻页特效
+** "UI Bootstrap":http://addyosmani.github.com/jquery-ui-bootstrap/
+** "UItoTop":http://lab.mattvarone.com/projects/jquery/totop/ - 回到页面顶部插件
+** "Validation":http://bassistance.de/jquery-plugins/jquery-plugin-validation/ - 表单验证插件
+** "Waypoints":http://imakewebthings.github.com/jquery-waypoints/ - 触发页面滚动事件的小插件，很实用
+** **幻灯片插件**
+*** "Layer Slider":http://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin/ - 一款强大的视觉幻灯片插件
+** **实现瀑布流的插件们**
+*** "iMuFeng Waterfall":http://github.com/iMuFeng/Waterfall
+*** "Isotope":http://isotope.metafizzy.co/demos/layout-modes.html
+*** "Masonry":http://masonry.desandro.com/index.html
+*** "waterfall":https://github.com/dio-el-claire/jquery.waterfall
+*** "WookMark":http://www.wookmark.com/jquery-plugin
+
+** *Framework*
+*** "koa":http://koajs.com/ - next generation web framework for node.js
+
+** *Web Apps*
+*** "Noderce":https://github.com/willerce/noderce - 开源Blog程序
+*** "hexo":https://github.com/tommy351/hexo - 不错的Octopress替换博客程序，生成速度很快，也引入了很多Octopress的插件
+*** "canku":https://github.com/willerce/canku - 一款多人订餐系统
+
+* *Mobile Web Framework*
+** "LungoJS":http://www.lungojs.com/
+** "Jquery Mobile":http://jquerymobile.com/ - 基于HTML5的Jquery前端移动设备开发框架
+
+* *Resources*
+** "Sina App Engine公共资源库":http://sae.sina.com.cn/?m=devcenter&catId=147 - 采用CDN技术提供常用js/css库的引用支持
+*** "jQuery版本支持列表":http://lib.sinaapp.com/?path=jquery/
+** "CDNJS":http://www.cdnjs.com/ - 同样采用CDN技术，提供几乎全部JS库的引用支持
+** "百度CDN公用库":http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs
+** "开放静态文件CDN":http://www.staticfile.org/ - 七牛提供的服务
+
+* *References*
+** "JavaScript 标准参考教程":http://javascript.ruanyifeng.com/
+
+* *WebSite*
+** "JSter":http://jster.net/ - 各种框架和库的收集站
+** "JSDB":http://www.jsdb.io - 同上
+** "MicroJS":http://microjs.com/ - 同上，专门收集各种休积小巧的JS库
+** "CustomElements":http://customelements.io/ - Web 控件收集站
+
+* *Other*
+** "EpicEditor":http://epiceditor.com/ - 一款很棒的Markdown在线编辑器
+** "jsFiddle":http://jsfiddle.net/ - 在线编辑，展示，分享代码
+** "RunJS":http://runjs.cn/ - 同上
+
+h3. HTML
+
+* *Web Text Editor*
+** "KindEditor":http://www.kindsoft.net/ - 国产开源在线HTML编辑器
+** "CKEditor":http://ckeditor.com/ - 国外开源在线HTML编辑器
+** "UEditor":http://ueditor.baidu.com/
+** "ShowDown":https://github.com/coreyti/showdown 支持markdown的JS编辑器
+
+* *Text-to-HTML Conversion Tools*
+** "Markdown":http://daringfireball.net/projects/markdown/
+*** "翻体中文版文档":http://markdown.tw/
+*** "在线转换工具":http://daringfireball.net/projects/markdown/dingus
+** "Textile":http://redcloth.org/textile
+*** "在线转换工具":http://www.textism.com/tools/textile/
+** "Emmet":http://emmet.io - zen coding的进化项目
+
+* *References*
+** "HTML5手册":http://www.w3school.com.cn/html5/index.asp
+** "前端代码规范及最佳实践":http://coderlmn.github.io/code-standards/
+
+h3. Development Tools
+
+* "Viewport resizer":http://lab.maltewassermann.com/viewport-resizer/ - 实用的前端开发辅助工具，可以让当前网页以各种不同的分辨率展示
+* "Phonegap":http://phonegap.com/ - 使用前端技术开发划平台的手机应用
+
+h3. Analyze Performance
+
+* "阿里测":http://alibench.com/
+* "GTMetrix":http://gtmetrix.com/
+* "Loadimpact":http://loadimpact.com/
+* "Google PageSpeed":https://developers.google.com/speed/pagespeed/insights
+* "Yahoo YSlow":http://developer.yahoo.com/yslow/
+
+h3. Web Site
+
+* "W3C Tech":http://w3ctech.com/
+* "F2E":http://f2e.im/ - 前端技术社区
+* "CSS weekly":http://css-weekly.com
+* "Web Design Weekly":http://web-design-weekly.com
+* "Sidebar: A List of Links":http://sidebar.io
+* "JavaScript Weekly":http://javascriptweekly.com
+* "HTML5 Weekly":http://html5weekly.com
+* "Responsive Web Design Weekly":http://responsivedesignweekly.com
+* "前端可视化工具集合":http://selection.datavisualization.ch/
+* "Codrops":http://tympanus.net/codrops/ - 前端资源分享站
+
+h3. Design Material
+
+* "站酷-ZCool":http://www.zcool.com.cn
+* "GlypFish":http://www.glyphish.com
+* "Icons4Coffee":http://www.icons4coffee.com
+* "RaphaelJS Free Icons":http://raphaeljs.com/icons/
+* "UIcons":http://uicons.co/
+* "Emoji Cheat Sheet":http://www.emoji-cheat-sheet.com/ - 一套很全的表情
+* "2500 Flag Icon":https://www.gosquared.com/resources/flag-icons - 2000多个国家旗帜图标
+* "simpleicons":http://simpleicons.org/
+* "TheyMakeIcons":http://theymakeicons.com/
+* "GLYPHOSH":http://www.glyphish.com/ - Great icons for beautiful apps
+* "flaticon":http://www.flaticon.com/ - 免费的响应式扁平化图标库，带 Photoshop 插件
+
+h3. Image Placeholders
+
+* "Holder.js":http://imsky.github.com/holder/
+* "placekitten":http://placekitten.com/
+
+h3. Github Pages Themes
+
+* "modernist":https://github.com/orderedlist/modernist/

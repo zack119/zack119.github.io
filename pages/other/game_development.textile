@@ -1,0 +1,150 @@
+---
+layout: default
+title: Game Development
+---
+
+<div id="charpter">
+h3. Contents
+* "Engine":#engine
+* "Stuff":#stuff
+** "Music & SFX":#music_sfx
+** "Website":#website
+* "Tools":#tools
+* "Server":#server
+* "Services":#services
+* "Game Websites":#game_website
+* "Development Websites":#develop_website
+</div>
+
+h1. {{ page.title }}
+
+h3(#engine). Engine
+* "Cocos2d-X":http://www.cocos2d-x.org/ - 移植 Cocos2d 的一款跨平台 2D 游戏引擎
+* "Dreemchest":http://dreemchest.com/
+* "ejoy2d":https://github.com/cloudwu/ejoy2d - 由云风开发的跨平台 2D 游戏渲染引擎
+* "Flambe":https://github.com/aduros/flambe - Flambe is an engine and asset pipeline for cross-platform multiplayer games.
+* "Gideros Mobile":http://www.giderosmobile.com/ - 小巧，小手快速，使用lua编写代码的手机游戏开发平台
+* "godot":http://www.godotengine.org/ - 开源的跨平台游戏引擎，支持2D 和 3D
+* "Moai":http://getmoai.com/ - 面向专业游戏开发者的开源手机游戏开发平台
+* "stencyl":http://www.stencyl.com/ - 傻瓜游戏制作工具
+* "Unity3D":http://unity3d.com/ - 跨平台综合型游戏开发引擎
+* "Paradox3D":http://paradox3d.net/ - Create cross-platform games in C#
+
+h3(#assets). Assets
+
+h4(#music_sfx). Music & SFX
+* "audiojungle":http://audiojungle.net/
+* "as3sfxr":http://www.superflashbros.net/as3sfxr/
+* "CuePop":http://www.cuepop.com/
+* "Flash Kit Sounds Loops":http://www.flashkit.com/loops/
+* "FreeSound":http://www.freesound.org/
+* "MagnaTune":https://magnatune.com/
+* "NewGrounds Audio":http://www.newgrounds.com/audio/
+* "Royalty Free Music II":http://incompetech.com/music/royalty-free/
+* "Royalty Free Music":http://www.danosongs.com/
+* "Soundbible":http://soundbible.com/
+* "SoundRangers":http://www.soundrangers.com/
+* "soundsnap":http://www.soundsnap.com
+* "フリー音楽素材":http://shw.in/sozai/
+
+h4(#website). Website
+* "爱给网游戏素材":http://www.2gei.com/
+* "OpenGameArt":http://opengameart.org/
+* "SpriteDatabase":http://spritedatabase.net/
+* "Art Assets for Game Developers":http://letsmakegames.org/resources/art-assets-for-game-developers/
+* "Spriters-Resource":http://www.spriters-resource.com/
+
+h3(#tools). Tools
+* **像素画软件**
+** "aseprite":http://www.aseprite.org/
+** "pixen":http://pixenapp.com/
+* **字体**
+** "BMFont":http://www.angelcode.com/products/bmfont
+** "FontEditor":https://code.google.com/p/fonteditor/
+** "Glyph Designer":http://71squared.com/glyphdesigner
+** "Hiero":https://code.google.com/p/libgdx/wiki/Hiero
+** "LabelAtlasCreator":http://www.cocos2d-iphone.org/forums/topic/labelatlascreator-label-atlas-tool-for-mac-os-x/
+* **粒子**
+** "ParticleCreator":https://itunes.apple.com/us/app/particlecreator/id426735435?mt=12
+** "Particle Designer":http://71squared.com/particledesigner
+* **物理**
+** "Mekanimo":http://mekanimo.net/
+** "PhysicsBench":https://github.com/tato123/PhysicsBench
+** "PhysicsEditor":http://www.physicseditor.de/
+** "VertexHelper":https://github.com/jfahrenkrug/VertexHelper
+** "Cadet":http://unwrong.com/cadet - 同样是一款物理引擎编辑器，支持2D和3D，2D主要针对Box2D
+** "RUBE":https://www.iforce2d.net/rube/ - 一款 Box2D 编辑器，可以生成JSON格式数据
+* **场景**
+** "CocosBuilder":http://cocosbuilder.com/
+** "Cocoshop":https://github.com/andrew0/cocoshop
+** "LevelHelper":http://www.levelhelper.org/
+** "Gleed2D":http://gleed2d.codeplex.com/ - 一款通用2D关卡编辑器
+* **瓦片地图编辑**
+** "iTileMaps":http://www.klemix.com/
+** "Tiled":http://www.mapeditor.org/
+** "OgmoEditor":http://www.ogmoeditor.com/ - 基于 Adobe Air 的关卡编辑器
+* **纹理图集**
+** "DarkFunction Editor":http://darkfunction.com/
+** "SpriteHelper":http://www.gamedevhelper.com/
+** "TexturePacker":http://www.texturepacker.com/
+** "Zwoptex":http://zwoptexapp.com/
+** "Spine":http://esotericsoftware.com/ - 强大的跨平台骨骼动画编辑器
+* **声音特效编辑**
+** "cfxr":http://thirdcog.eu/apps/cfxr/
+** "bfxr":http://www.bfxr.net/
+** "as3sfxr":http://www.superflashbros.net/as3sfxr/
+* **音乐编辑**
+** "GarageBand":http://itunes.apple.com/cn/app/garageband/id408980954?l=en&mt=12/
+** "Steinberg Nuendo":http://lorenzofox3.github.io/smart-table-website/
+* **模型**
+** "m3addon":https://github.com/flo/m3addon - Blender Addon to import and export m3 files
+** "blendm3":https://github.com/stante/blendm3 - Blender add-on to import Blizzard .m3 files
+** "MPQ Editor":http://www.zezula.net/en/mpq/download.html - MPQ导出工具
+** "M3 Plugin for 3DMAX":http://www.sc2mapster.com/assets/m3-export-plugin-3ds-max/
+** "WoW Model Viewer":https://wowmodelviewer.atlassian.net/wiki/display/WMV/Download+WoW+Model+Viewer
+* **其他**
+** "DrawScript":http://drawscri.pt/ - 根据矢量图生成各语言代码
+** "shoebox":http://renderhjs.net/shoebox/ - 一款游戏开发资源整理工具，支持目前大多数主流游戏框架
+** "Ulead GIF Animator":http://www.corel.com/corel/
+
+h3(#server). Server
+* "BigWorld":http://bigworldtech.com/ - BigWorld为大型多人在线游戏 (MMOG) 开发商提供成熟的中间件平台，这一中间件平台正迅速成为行业标准。
+* "Chilly":http://chillyframework.com/ - 开源，同样基于 node.js 的游戏服务端框架
+* "ElectroTank(ElectroServer)":http://www.electrotank.com/ - 跨平台的手机社交游戏服务端框架
+* "Firefly":http://firefly.9miao.com/ - 免费、开源、稳定、快速扩展、能“热更新”的分布式游戏服务器端框架，采用Python编写，基于Twisted框架开发
+* "KBEngine":http://www.kbengine.org/ - 一款开源的支持多人同时在线实时游戏的服务端引擎，使用简单的约定协议就能够使客户端与服务端进行交互，使用KBEngine插件能够快速与(Unity3D、OGRE、Cocos2d、HTML5,等等)技术结合形成一个完整的客户端。
+* "Photon":http://www.exitgames.com/ - 跨平台的多人在线游戏服务端框架
+* "Pomelo":http://pomelo.netease.com/ - 开源、快速、扩展性好、分布式游戏后端开发框架，网易出品
+* "Scut":https://github.com/ScutGame/Scut
+* "SmartFox":http://www.smartfoxserver.com/ - 比较有名的获平台多人在线游戏服务端框架
+
+h3(#services). Services
+* "flox":https://www.flox.cc - 游戏数据统计服务
+
+h3(#game_website). Game Website
+* "9Leap":http://9leap.net/
+* "Armorgames":http://armorgames.com/
+* "Kongregate":http://www.kongregate.com/
+* "Miniclip":http://www.miniclip.com/
+* "Nitrome":http://www.nitrome.com/
+
+h3(#game_studio). Game Studio
+* "2D Boy":http://2dboy.com/
+* "ustwo":http://ustwo.com/
+* "Ironhide":http://www.ironhidegames.com/
+* "HalfBrick":http://halfbrick.com/
+* "SuperCell":http://www.supercell.net/
+* "Klei Entertainment":http://www.kleientertainment.com/
+
+h3(#develop_website). Development Website
+* "gamedev":http://www.gamedev.net/
+* "Red Blob Games":http://www.redblobgames.com/ - 作者分享了一些游戏制作思路及可视化例子
+
+h3(#source_code). Source Code
+* "口袋仙侠":http://git.oschina.net/9miao/KouDaiXianXia - 基于 Cocos2d-x 的横版 RTS 游戏源码
+* "暗黑世界":http://git.oschina.net/9miao/diabloworld - 基于 Cocos2d-x 的卡牌手游
+* "烽烟OL":http://git.oschina.net/9miao/fengyanOL - 基于 AS3 的 RPG 网页游戏
+
+h3(#references). References
+* "Game Programming Patterns":http://gameprogrammingpatterns.com/introduction.html - 游戏开发设计模式，EA 游戏编程师八年经验总结
+* "百万用户排名的设计想法":https://github.com/thomashuang/Nagi/blob/master/design_cn.rst

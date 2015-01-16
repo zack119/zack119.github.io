@@ -1,0 +1,20 @@
+---
+layout: default
+title: Java
+---
+h1. Java
+
+h3.构建
+* "Apache Maven":http://maven.apache.org/ － Maven使用声明进行构建并进行依赖管理，偏向于使用约定而不是配置进行构建。Maven优于Apache Ant。后者采用了一种过程化的方式进行配置，所以维护起来相当困难。
+* "Gradle":http://www.gradle.org/ -Gradle采用增量构建。Gradle通过Groovy编程而不是传统的XML声明进行配置。Gradle可以很好地配合Maven进行依赖管理，并且把Ant脚本当作头等公民。
+
+h3.字节码操作
+* "ASM":http://asm.ow2.org/ - 通用底层字节码操作及分析。
+*"Javassist":http://www.csg.ci.i.u-tokyo.ac.jp/%7Echiba/javassist/ - 尝试简化字节码编辑。
+*"Byte Buddy":http://bytebuddy.net/ 使用“流式API”进一步简化字节码生成。
+
+h3.代码分析
+*"Checkstyle":http://checkstyle.sourceforge.net/ - 对编程规范和标准进行静态分析。
+*"FindBugs":http://findbugs.sourceforge.net/ - 通过字节码静态分析找出潜在Bug。
+*"PMD":http://pmd.sourceforge.net/ - 对源代码中不良编程习惯进行分析。
+*"SonarQube":http://www.sonarqube.org/ - 通过插件集成其它分析组件，提供评估最终结果报告
